@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from 'react';
 import SpeechButton from './SpeechButton';
 import RabbitMessage from './RabbitMessage';
 import RewardModal from './RewardModal';
-import { saveDayResult } from '@/lib/storage';
+import { saveDayResult, getNextSet, saveCurrentSet } from '@/lib/storage';
 import { getEncourageMessage, getWrongMessage, getScoreComment, getBlackMessage, getBlackFollowUp, getDanceTimeMessage } from '@/lib/rabbit';
 import { determineReward, type Reward } from '@/lib/rewards';
 
@@ -17,7 +17,17 @@ interface Question {
   hint: string;
 }
 
-export default function DefinitionQuiz({ day, questions }: { day: number; questions: Question[] }) {
+export default function DefinitionQuiz({ day, questions: allQuestions }: { day: number; questions: Question[] }) {
+  // Set selection: first 10 = set1, next 10 = set2
+  const [quizSet] = useState(() => {
+    const s = getNextSet(day, 'definition');
+    saveCurrentSet(day, 'definition', s);
+    return s;
+  });
+  const questions = quizSet === 2 && allQuestions.length > 10
+    ? allQuestions.slice(10, 20)
+    : allQuestions.slice(0, 10);
+
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [score, setScore] = useState(0);
