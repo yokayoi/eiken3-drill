@@ -21,20 +21,22 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
 
   if (day < 1 || day > 8 || isNaN(day)) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-8">
-        <p className="text-xl font-bold">ページが見つかりません</p>
-        <a href="/" className="mt-4 text-sky-500 underline">ホームへ戻る</a>
+      <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-kdark">
+        <p className="text-xl font-bold text-white">ページが見つかりません</p>
+        <a href="/" className="mt-4 text-kpink underline">ホームへ戻る</a>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-sky-50 to-white">
+    <div className="min-h-screen bg-kdark">
       {/* Header */}
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-gray-100">
+      <header className="sticky top-0 z-10 bg-kdark/90 backdrop-blur border-b border-gray-800">
         <div className="max-w-lg mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="/" className="text-sky-500 font-bold text-sm">← もどる</a>
-          <h1 className="text-base font-bold">Day {day}</h1>
+          <a href="/" className="text-kpink font-bold text-sm">← もどる</a>
+          <h1 className="text-base font-black">
+            <span className="text-kpink">Day</span> {day}
+          </h1>
           <div className="w-14" />
         </div>
       </header>
@@ -42,30 +44,30 @@ export default function DayPage({ params }: { params: Promise<{ id: string }> })
       <div className="max-w-lg mx-auto px-4 py-6">
         {/* Rabbit greeting */}
         <div className="mb-5">
-          <RabbitMessage message={`Day ${day}！${startMsg}`} mood="cheer" />
+          <RabbitMessage message={`Day ${day}！${startMsg}`} mood="cheer" dancing />
         </div>
 
         {/* Tab */}
         <div className="flex gap-2 mb-6">
           <button
             onClick={() => setTab('fill')}
-            className={`flex-1 py-3 rounded-xl font-bold text-sm transition-all ${
+            className={`btn-neon flex-1 py-3 rounded-xl font-black text-sm transition-all ${
               tab === 'fill'
-                ? 'bg-sky-500 text-white shadow-md'
-                : 'bg-gray-100 text-gray-500'
+                ? 'bg-gradient-to-r from-kpink to-kpurple text-white shadow-[0_0_15px_rgba(255,45,120,0.3)]'
+                : 'bg-kcard text-gray-500 border border-gray-700'
             }`}
           >
-            📝 穴うめ問題
+            🎤 穴うめ問題
           </button>
           <button
             onClick={() => setTab('definition')}
-            className={`flex-1 py-3 rounded-xl font-bold text-sm transition-all ${
+            className={`btn-neon flex-1 py-3 rounded-xl font-black text-sm transition-all ${
               tab === 'definition'
-                ? 'bg-emerald-500 text-white shadow-md'
-                : 'bg-gray-100 text-gray-500'
+                ? 'bg-gradient-to-r from-kpurple to-kpink text-white shadow-[0_0_15px_rgba(168,85,247,0.3)]'
+                : 'bg-kcard text-gray-500 border border-gray-700'
             }`}
           >
-            📖 英英クイズ
+            💃 英英クイズ
           </button>
         </div>
 

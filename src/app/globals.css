@@ -2,6 +2,12 @@
 
 @theme inline {
   --font-sans: "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif;
+  --color-kpink: #FF2D78;
+  --color-kpurple: #A855F7;
+  --color-kyellow: #FDE047;
+  --color-kdark: #1a1a2e;
+  --color-kcard: #252542;
+  --color-kglow: rgba(255, 45, 120, 0.4);
 }
 
 body {
@@ -9,6 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+/* ===== Animations ===== */
 @keyframes fade-in {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
@@ -20,10 +27,125 @@ body {
   100% { opacity: 1; transform: scale(1) translateY(0); }
 }
 
-.animate-fade-in {
-  animation: fade-in 0.3s ease-out;
+@keyframes dance {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  15% { transform: translateY(-6px) rotate(-5deg); }
+  30% { transform: translateY(0) rotate(5deg); }
+  45% { transform: translateY(-8px) rotate(-3deg); }
+  60% { transform: translateY(0) rotate(3deg); }
+  75% { transform: translateY(-4px) rotate(-5deg); }
+  90% { transform: translateY(0) rotate(2deg); }
 }
 
-.animate-bounce-in {
-  animation: bounce-in 0.4s ease-out;
+@keyframes shake-angry {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-4px) rotate(-2deg); }
+  20% { transform: translateX(4px) rotate(2deg); }
+  30% { transform: translateX(-4px) rotate(-1deg); }
+  40% { transform: translateX(4px) rotate(1deg); }
+  50% { transform: translateX(-2px); }
+  60% { transform: translateX(2px); }
+}
+
+@keyframes neon-pulse {
+  0%, 100% { text-shadow: 0 0 10px var(--color-kpink), 0 0 20px var(--color-kpink), 0 0 40px var(--color-kpink); }
+  50% { text-shadow: 0 0 5px var(--color-kpink), 0 0 10px var(--color-kpink), 0 0 20px var(--color-kpink); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.2); }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(40px) scale(0.95); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes confetti-fall {
+  0% { transform: translateY(-10px) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes splash-zoom {
+  0% { opacity: 0; transform: scale(0.5) rotate(-5deg); }
+  50% { opacity: 1; transform: scale(1.1) rotate(2deg); }
+  100% { opacity: 1; transform: scale(1) rotate(0deg); }
+}
+
+@keyframes splash-fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; pointer-events: none; }
+}
+
+@keyframes glow-border {
+  0%, 100% { border-color: var(--color-kpink); box-shadow: 0 0 8px var(--color-kglow); }
+  50% { border-color: var(--color-kpurple); box-shadow: 0 0 12px rgba(168, 85, 247, 0.4); }
+}
+
+@keyframes eye-glow {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.8) drop-shadow(0 0 6px red); }
+}
+
+.animate-fade-in { animation: fade-in 0.3s ease-out; }
+.animate-bounce-in { animation: bounce-in 0.4s ease-out; }
+.animate-dance { animation: dance 1s ease-in-out infinite; }
+.animate-shake { animation: shake-angry 0.5s ease-in-out infinite; }
+.animate-neon { animation: neon-pulse 2s ease-in-out infinite; }
+.animate-sparkle { animation: sparkle 1.5s ease-in-out infinite; }
+.animate-slide-up { animation: slide-up 0.5s ease-out; }
+.animate-splash { animation: splash-zoom 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards; }
+.animate-glow-border { animation: glow-border 2s ease-in-out infinite; }
+
+/* Confetti pieces */
+.confetti {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  top: -10px;
+  z-index: 100;
+  animation: confetti-fall 3s ease-in forwards;
+}
+
+/* Neon glow button */
+.btn-neon {
+  position: relative;
+  transition: all 0.2s;
+}
+.btn-neon:active {
+  transform: scale(0.96);
+  filter: brightness(1.2);
+}
+
+/* Holographic card border */
+.holo-card {
+  position: relative;
+  overflow: hidden;
+}
+.holo-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--color-kpink), var(--color-kpurple), var(--color-kyellow), var(--color-kpink));
+  background-size: 300% 300%;
+  animation: holo-shift 4s ease infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+@keyframes holo-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Progress bar glow */
+.progress-neon {
+  background: linear-gradient(90deg, var(--color-kpink), var(--color-kpurple));
+  box-shadow: 0 0 8px var(--color-kglow);
 }

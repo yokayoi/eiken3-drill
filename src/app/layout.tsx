@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "英検3級ドリル",
-  description: "8日間で英検3級の単語力をアップ！穴うめ問題と英英クイズで楽しく学習。",
+  title: "さらちゃんの英検ステージ",
+  description: "らんちゃんと一緒に英検3級の単語をマスターしよう！K-POPダンスタイムつき！",
 };
 
 export const viewport: Viewport = {
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja" className="h-full antialiased">
-      <body className="min-h-full font-sans">{children}</body>
+      <body className="min-h-full font-sans bg-kdark text-white">{children}</body>
     </html>
   );
 }
