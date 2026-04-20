@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1, "day": 1,
+    "word": "deliver",
+    "definition": "To bring something to a person or place",
+    "choices": ["deliver", "discover", "destroy", "design"],
+    "answer": 0,
+    "hint": "郵便屋さんが手紙を届けるイメージだよ！"
+  },
+  {
+    "id": 2, "day": 1,
+    "word": "protect",
+    "definition": "To keep someone or something safe from danger",
+    "choices": ["perform", "protect", "promise", "produce"],
+    "answer": 1,
+    "hint": "ヒーローが街を守るイメージ！"
+  },
+  {
+    "id": 3, "day": 1,
+    "word": "several",
+    "definition": "More than two but not very many",
+    "choices": ["single", "simple", "several", "serious"],
+    "answer": 2,
+    "hint": "1個でも2個でもない、数個ってこと！"
+  },
+  {
+    "id": 4, "day": 1,
+    "word": "excited",
+    "definition": "Feeling very happy and full of energy about something",
+    "choices": ["empty", "excited", "enough", "exact"],
+    "answer": 1,
+    "hint": "クリスマスの朝のワクワクした気持ち！"
+  },
+  {
+    "id": 5, "day": 1,
+    "word": "finish",
+    "definition": "To complete something or bring it to an end",
+    "choices": ["forget", "follow", "finish", "freeze"],
+    "answer": 2,
+    "hint": "マラソンのゴールのイメージ！"
+  },
+  {
+    "id": 6, "day": 1,
+    "word": "lose",
+    "definition": "To not be able to find something",
+    "choices": ["lend", "lose", "laugh", "lead"],
+    "answer": 1,
+    "hint": "消しゴムがどこかに行っちゃった！"
+  },
+  {
+    "id": 7, "day": 1,
+    "word": "missing",
+    "definition": "Not in the place where you expect it to be",
+    "choices": ["modern", "missing", "major", "mild"],
+    "answer": 1,
+    "hint": "見つからない、いなくなったということ！"
+  },
+  {
+    "id": 8, "day": 1,
+    "word": "become",
+    "definition": "To start to be something",
+    "choices": ["belong", "believe", "become", "behave"],
+    "answer": 2,
+    "hint": "大きくなったら何になる？"
+  },
+  {
+    "id": 9, "day": 1,
+    "word": "funny",
+    "definition": "Making you laugh or smile",
+    "choices": ["famous", "funny", "foreign", "free"],
+    "answer": 1,
+    "hint": "お笑い芸人はこれが得意！"
+  },
+  {
+    "id": 10, "day": 1,
+    "word": "plan",
+    "definition": "To decide what you are going to do and how to do it",
+    "choices": ["play", "plan", "place", "plant"],
+    "answer": 1,
+    "hint": "旅行に行く前にやることだよ！"
+  },
+  {
+    "id": 11, "day": 2,
+    "word": "climb",
+    "definition": "To go up something like a mountain or a tree",
+    "choices": ["climb", "close", "cross", "count"],
+    "answer": 0,
+    "hint": "山のてっぺんを目指す！"
+  },
+  {
+    "id": 12, "day": 2,
+    "word": "crowded",
+    "definition": "Having a lot of people in one place",
+    "choices": ["careful", "common", "crowded", "clever"],
+    "answer": 2,
+    "hint": "お祭りの時の電車の中みたい！"
+  },
+  {
+    "id": 13, "day": 2,
+    "word": "receive",
+    "definition": "To get something that someone gives or sends to you",
+    "choices": ["return", "receive", "remember", "repair"],
+    "answer": 1,
+    "hint": "お誕生日にプレゼントをもらう！"
+  },
+  {
+    "id": 14, "day": 2,
+    "word": "popular",
+    "definition": "Liked or enjoyed by many people",
+    "choices": ["possible", "popular", "polite", "powerful"],
+    "answer": 1,
+    "hint": "みんなに大人気ってこと！"
+  },
+  {
+    "id": 15, "day": 2,
+    "word": "suddenly",
+    "definition": "Quickly and without warning",
+    "choices": ["slowly", "safely", "suddenly", "simply"],
+    "answer": 2,
+    "hint": "びっくりするくらい急に！"
+  },
+  {
+    "id": 16, "day": 2,
+    "word": "invite",
+    "definition": "To ask someone to come to a party or event",
+    "choices": ["imagine", "invite", "improve", "include"],
+    "answer": 1,
+    "hint": "パーティーの招待状を送るよ！"
+  },
+  {
+    "id": 17, "day": 2,
+    "word": "population",
+    "definition": "The number of people living in a place",
+    "choices": ["position", "pollution", "population", "production"],
+    "answer": 2,
+    "hint": "この街に住んでいる人は全部で何人？"
+  },
+  {
+    "id": 18, "day": 2,
+    "word": "turn off",
+    "definition": "To stop a machine or light from working",
+    "choices": ["turn off", "take off", "try on", "turn on"],
+    "answer": 0,
+    "hint": "寝る前に電気を消すよ！"
+  },
+  {
+    "id": 19, "day": 2,
+    "word": "study",
+    "definition": "To learn about a subject by reading or practicing",
+    "choices": ["start", "study", "stand", "stay"],
+    "answer": 1,
+    "hint": "テストの前にやること！"
+  },
+  {
+    "id": 20, "day": 2,
+    "word": "make a decision",
+    "definition": "To choose what to do after thinking about it",
+    "choices": ["make a speech", "make a mistake", "make a decision", "make a noise"],
+    "answer": 2,
+    "hint": "どっちにしようかな〜って考えた後にすること！"
+  },
+  {
+    "id": 21, "day": 3,
+    "word": "pick up",
+    "definition": "To go somewhere and collect someone, usually by car",
+    "choices": ["pick up", "put on", "pay for", "point at"],
+    "answer": 0,
+    "hint": "お母さんが駅まで車で来てくれる！"
+  },
+  {
+    "id": 22, "day": 3,
+    "word": "wonderful",
+    "definition": "Extremely good; making you feel very happy",
+    "choices": ["worried", "wonderful", "wrong", "weak"],
+    "answer": 1,
+    "hint": "最高！すばらしい！って感じ！"
+  },
+  {
+    "id": 23, "day": 3,
+    "word": "spend",
+    "definition": "To use money to buy things or use time doing something",
+    "choices": ["spend", "spread", "steal", "shake"],
+    "answer": 0,
+    "hint": "お小遣いを使う、時間をかけるということ！"
+  },
+  {
+    "id": 24, "day": 3,
+    "word": "discount",
+    "definition": "A lower price than the usual one",
+    "choices": ["danger", "damage", "discount", "distance"],
+    "answer": 2,
+    "hint": "セールで安くなること！"
+  },
+  {
+    "id": 25, "day": 3,
+    "word": "look for",
+    "definition": "To try to find something or someone",
+    "choices": ["look at", "look for", "look after", "look up"],
+    "answer": 1,
+    "hint": "落とし物を探すときにすること！"
+  },
+  {
+    "id": 26, "day": 3,
+    "word": "worried",
+    "definition": "Feeling unhappy because you think something bad might happen",
+    "choices": ["wonderful", "worried", "worth", "wise"],
+    "answer": 1,
+    "hint": "テストの結果が気になって不安…"
+  },
+  {
+    "id": 27, "day": 3,
+    "word": "finally",
+    "definition": "After a long time or after many difficulties",
+    "choices": ["fairly", "freely", "finally", "firmly"],
+    "answer": 2,
+    "hint": "やっと！ついに！"
+  },
+  {
+    "id": 28, "day": 3,
+    "word": "lend",
+    "definition": "To give something to someone for a short time",
+    "choices": ["lend", "lead", "learn", "leave"],
+    "answer": 0,
+    "hint": "友達にノートを貸してあげる！"
+  },
+  {
+    "id": 29, "day": 3,
+    "word": "discovery",
+    "definition": "Finding something new or learning something for the first time",
+    "choices": ["decision", "discussion", "discovery", "direction"],
+    "answer": 2,
+    "hint": "コロンブスがアメリカ大陸を見つけたみたいに！"
+  },
+  {
+    "id": 30, "day": 3,
+    "word": "join",
+    "definition": "To become a member of a group or to do an activity with others",
+    "choices": ["jump", "join", "joke", "judge"],
+    "answer": 1,
+    "hint": "サッカー部に入る！"
+  },
+  {
+    "id": 31, "day": 4,
+    "word": "take care of",
+    "definition": "To look after someone or something",
+    "choices": ["take part in", "take care of", "take off", "take place"],
+    "answer": 1,
+    "hint": "ペットのお世話をするよ！"
+  },
+  {
+    "id": 32, "day": 4,
+    "word": "fantastic",
+    "definition": "Extremely good or attractive",
+    "choices": ["familiar", "fantastic", "foreign", "formal"],
+    "answer": 1,
+    "hint": "すごい！最高！って叫びたくなる！"
+  },
+  {
+    "id": 33, "day": 4,
+    "word": "freeze",
+    "definition": "To become hard and solid because of very cold temperature",
+    "choices": ["flow", "float", "freeze", "fly"],
+    "answer": 2,
+    "hint": "冬になると水が氷になるよ！"
+  },
+  {
+    "id": 34, "day": 4,
+    "word": "look forward to",
+    "definition": "To feel happy and excited about something that is going to happen",
+    "choices": ["look forward to", "look up to", "look out for", "look down on"],
+    "answer": 0,
+    "hint": "遠足が楽しみ！ってとき！"
+  },
+  {
+    "id": 35, "day": 4,
+    "word": "carry",
+    "definition": "To hold something and take it from one place to another",
+    "choices": ["carry", "catch", "check", "choose"],
+    "answer": 0,
+    "hint": "重い荷物を持って歩く！"
+  },
+  {
+    "id": 36, "day": 4,
+    "word": "promise",
+    "definition": "To tell someone that you will definitely do something",
+    "choices": ["prepare", "promise", "prevent", "produce"],
+    "answer": 1,
+    "hint": "指切りげんまん！"
+  },
+  {
+    "id": 37, "day": 4,
+    "word": "accident",
+    "definition": "Something bad that happens by chance, causing damage or injury",
+    "choices": ["accident", "activity", "address", "advantage"],
+    "answer": 0,
+    "hint": "車がぶつかっちゃった…"
+  },
+  {
+    "id": 38, "day": 4,
+    "word": "easily",
+    "definition": "Without difficulty or effort",
+    "choices": ["early", "easily", "equally", "exactly"],
+    "answer": 1,
+    "hint": "かんたんに、らくらく！"
+  },
+  {
+    "id": 39, "day": 4,
+    "word": "teach",
+    "definition": "To help someone learn something by giving them information",
+    "choices": ["touch", "teach", "throw", "think"],
+    "answer": 1,
+    "hint": "学校の先生がやること！"
+  },
+  {
+    "id": 40, "day": 4,
+    "word": "garbage",
+    "definition": "Things that you throw away because you do not want them",
+    "choices": ["garden", "garage", "garbage", "guide"],
+    "answer": 2,
+    "hint": "毎朝ゴミ箱に入れるもの！"
+  },
+  {
+    "id": 41, "day": 5,
+    "word": "on the phone",
+    "definition": "Using the phone to talk to someone",
+    "choices": ["on the way", "on the phone", "on the other hand", "on time"],
+    "answer": 1,
+    "hint": "スマホで友達と話してるよ！"
+  },
+  {
+    "id": 42, "day": 5,
+    "word": "find out",
+    "definition": "To learn or discover a fact or piece of information",
+    "choices": ["fall down", "fill in", "find out", "figure out"],
+    "answer": 2,
+    "hint": "答えがわかった！見つけた！"
+  },
+  {
+    "id": 43, "day": 5,
+    "word": "fill in",
+    "definition": "To write information in the blank spaces on a form",
+    "choices": ["fill in", "find out", "fall down", "fix up"],
+    "answer": 0,
+    "hint": "申し込み用紙に名前を書く！"
+  },
+  {
+    "id": 44, "day": 5,
+    "word": "interested",
+    "definition": "Wanting to know more about something",
+    "choices": ["important", "interested", "impossible", "immediate"],
+    "answer": 1,
+    "hint": "もっと知りたい！ってワクワクする気持ち！"
+  },
+  {
+    "id": 45, "day": 5,
+    "word": "collect",
+    "definition": "To get things from different places and bring them together",
+    "choices": ["collect", "connect", "correct", "control"],
+    "answer": 0,
+    "hint": "切手やカードを集めるのが好き！"
+  },
+  {
+    "id": 46, "day": 5,
+    "word": "wide",
+    "definition": "Having a large distance from one side to the other",
+    "choices": ["weak", "wild", "wide", "wise"],
+    "answer": 2,
+    "hint": "大きな川の横幅のイメージ！"
+  },
+  {
+    "id": 47, "day": 5,
+    "word": "instead of",
+    "definition": "In the place of something or someone else",
+    "choices": ["in spite of", "instead of", "in front of", "in charge of"],
+    "answer": 1,
+    "hint": "ケーキの代わりにアイスを食べよう！"
+  },
+  {
+    "id": 48, "day": 5,
+    "word": "design",
+    "definition": "To make a drawing or plan of something that will be made",
+    "choices": ["decide", "design", "depend", "develop"],
+    "answer": 1,
+    "hint": "お洋服や建物をかっこよく作る計画！"
+  },
+  {
+    "id": 49, "day": 5,
+    "word": "try",
+    "definition": "To make an effort to do something",
+    "choices": ["tell", "travel", "try", "trade"],
+    "answer": 2,
+    "hint": "やってみよう！チャレンジ！"
+  },
+  {
+    "id": 50, "day": 5,
+    "word": "closed",
+    "definition": "Not open for business or visitors",
+    "choices": ["clean", "clear", "closed", "cheap"],
+    "answer": 2,
+    "hint": "お店のドアに「CLOSED」って書いてある！"
+  },
+  {
+    "id": 51, "day": 6,
+    "word": "in a hurry",
+    "definition": "Doing things quickly because you do not have much time",
+    "choices": ["in a row", "in a hurry", "in a way", "in a while"],
+    "answer": 1,
+    "hint": "遅刻しそうで走ってる！"
+  },
+  {
+    "id": 52, "day": 6,
+    "word": "at first",
+    "definition": "In the beginning, before other things happened",
+    "choices": ["at last", "at first", "at once", "at least"],
+    "answer": 1,
+    "hint": "最初は怖かったけど、今は平気！"
+  },
+  {
+    "id": 53, "day": 6,
+    "word": "be good at",
+    "definition": "To be able to do something well",
+    "choices": ["be afraid of", "be good at", "be late for", "be proud of"],
+    "answer": 1,
+    "hint": "サッカーが上手！って褒められる！"
+  },
+  {
+    "id": 54, "day": 6,
+    "word": "make a mistake",
+    "definition": "To do something wrong or incorrect",
+    "choices": ["make a plan", "make a speech", "make a mistake", "make a wish"],
+    "answer": 2,
+    "hint": "テストで計算を間違えちゃった！"
+  },
+  {
+    "id": 55, "day": 6,
+    "word": "already",
+    "definition": "Before now or before a particular time",
+    "choices": ["almost", "alone", "always", "already"],
+    "answer": 3,
+    "hint": "もう終わったよ！って時に使う！"
+  },
+  {
+    "id": 56, "day": 6,
+    "word": "take part in",
+    "definition": "To be involved in an activity or event with other people",
+    "choices": ["take place", "take part in", "take off", "take over"],
+    "answer": 1,
+    "hint": "マラソン大会に参加する！"
+  },
+  {
+    "id": 57, "day": 6,
+    "word": "fly",
+    "definition": "To move through the air using wings",
+    "choices": ["fall", "fly", "flow", "feed"],
+    "answer": 1,
+    "hint": "鳥が空を飛んでいる！"
+  },
+  {
+    "id": 58, "day": 6,
+    "word": "tell",
+    "definition": "To give information to someone by speaking",
+    "choices": ["teach", "tell", "talk", "think"],
+    "answer": 1,
+    "hint": "秘密を友達に教える！"
+  },
+  {
+    "id": 59, "day": 6,
+    "word": "shocking",
+    "definition": "Making you feel very surprised and upset",
+    "choices": ["shining", "shocking", "sharing", "showing"],
+    "answer": 1,
+    "hint": "びっくり！信じられない！"
+  },
+  {
+    "id": 60, "day": 6,
+    "word": "for a while",
+    "definition": "For a short period of time",
+    "choices": ["for a change", "for a while", "for a moment", "for a reason"],
+    "answer": 1,
+    "hint": "ちょっとの間、しばらく！"
+  },
+  {
+    "id": 61, "day": 7,
+    "word": "capital",
+    "definition": "The most important city of a country, where the government is",
+    "choices": ["capital", "culture", "century", "college"],
+    "answer": 0,
+    "hint": "日本なら東京、アメリカならワシントンD.C.！"
+  },
+  {
+    "id": 62, "day": 7,
+    "word": "cross",
+    "definition": "To go from one side of something to the other",
+    "choices": ["climb", "cross", "crash", "create"],
+    "answer": 1,
+    "hint": "横断歩道を渡る！"
+  },
+  {
+    "id": 63, "day": 7,
+    "word": "borrow",
+    "definition": "To take something from someone and give it back later",
+    "choices": ["break", "bring", "borrow", "build"],
+    "answer": 2,
+    "hint": "図書館で本を借りる！"
+  },
+  {
+    "id": 64, "day": 7,
+    "word": "experience",
+    "definition": "Knowledge or skill that you get from doing something",
+    "choices": ["exercise", "example", "experience", "experiment"],
+    "answer": 2,
+    "hint": "いろんなことをやって身につくもの！"
+  },
+  {
+    "id": 65, "day": 7,
+    "word": "waste",
+    "definition": "To use something carelessly without a good purpose",
+    "choices": ["wait", "waste", "watch", "water"],
+    "answer": 1,
+    "hint": "食べ物を残したらもったいない！"
+  },
+  {
+    "id": 66, "day": 7,
+    "word": "be famous for",
+    "definition": "To be known by many people because of something special",
+    "choices": ["be afraid of", "be famous for", "be fond of", "be full of"],
+    "answer": 1,
+    "hint": "富士山は世界的に有名！"
+  },
+  {
+    "id": 67, "day": 7,
+    "word": "make sure",
+    "definition": "To check that something is true or has been done",
+    "choices": ["make sense", "make sure", "make up", "make fun of"],
+    "answer": 1,
+    "hint": "忘れ物がないかチェック！"
+  },
+  {
+    "id": 68, "day": 7,
+    "word": "sell out",
+    "definition": "To have no more of something left to sell",
+    "choices": ["set out", "sell out", "send out", "sort out"],
+    "answer": 1,
+    "hint": "人気商品が全部売り切れ！"
+  },
+  {
+    "id": 69, "day": 7,
+    "word": "large",
+    "definition": "Big in size or amount",
+    "choices": ["late", "large", "local", "loud"],
+    "answer": 1,
+    "hint": "ピザのLサイズ！"
+  },
+  {
+    "id": 70, "day": 7,
+    "word": "suddenly",
+    "definition": "Happening quickly and without warning",
+    "choices": ["slowly", "seriously", "suddenly", "safely"],
+    "answer": 2,
+    "hint": "急にドアが開いた！"
+  },
+  {
+    "id": 71, "day": 8,
+    "word": "agree",
+    "definition": "To have the same opinion as someone else",
+    "choices": ["agree", "appear", "arrive", "avoid"],
+    "answer": 0,
+    "hint": "「うん、そうだね！」って言うこと！"
+  },
+  {
+    "id": 72, "day": 8,
+    "word": "empty",
+    "definition": "Having nothing inside",
+    "choices": ["early", "easy", "empty", "equal"],
+    "answer": 2,
+    "hint": "冷蔵庫に何も入ってない！"
+  },
+  {
+    "id": 73, "day": 8,
+    "word": "carefully",
+    "definition": "Giving a lot of attention to what you are doing",
+    "choices": ["certainly", "carefully", "cheerfully", "correctly"],
+    "answer": 1,
+    "hint": "ていねいに、慎重に！"
+  },
+  {
+    "id": 74, "day": 8,
+    "word": "wrap",
+    "definition": "To cover something by putting paper or cloth around it",
+    "choices": ["write", "wrap", "wave", "wear"],
+    "answer": 1,
+    "hint": "プレゼントをきれいな紙で包む！"
+  },
+  {
+    "id": 75, "day": 8,
+    "word": "on one's own",
+    "definition": "Alone, without help from anyone",
+    "choices": ["on the way", "on one's own", "on purpose", "on time"],
+    "answer": 1,
+    "hint": "自分ひとりの力で！"
+  },
+  {
+    "id": 76, "day": 8,
+    "word": "anytime",
+    "definition": "At any time; it does not matter when",
+    "choices": ["anyway", "anywhere", "anyone", "anytime"],
+    "answer": 3,
+    "hint": "いつでもどうぞ！"
+  },
+  {
+    "id": 77, "day": 8,
+    "word": "yet",
+    "definition": "Up until now (used in negative sentences and questions)",
+    "choices": ["yes", "year", "yet", "you"],
+    "answer": 2,
+    "hint": "まだ宿題やってないの？"
+  },
+  {
+    "id": 78, "day": 8,
+    "word": "visit",
+    "definition": "To go to a place or person for a short time",
+    "choices": ["voice", "visit", "value", "view"],
+    "answer": 1,
+    "hint": "おじいちゃんの家に遊びに行く！"
+  },
+  {
+    "id": 79, "day": 8,
+    "word": "adjust",
+    "definition": "To change something slightly so that it works better or fits better",
+    "choices": ["accept", "adjust", "admire", "advise"],
+    "answer": 1,
+    "hint": "新しい環境に慣れる！"
+  },
+  {
+    "id": 80, "day": 8,
+    "word": "pilot",
+    "definition": "A person who flies an airplane",
+    "choices": ["painter", "pilot", "player", "professor"],
+    "answer": 1,
+    "hint": "飛行機を操縦する人！"
+  }
+]

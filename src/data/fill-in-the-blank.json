@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1, "day": 1,
+    "sentence": "I can't find my wallet. It's ____.",
+    "choices": ["empty", "missing", "lonely", "broken"],
+    "answer": 1,
+    "explanation": "missing は「見つからない・行方不明の」という意味。walletが見つからないので missing が正解。",
+    "word": "missing"
+  },
+  {
+    "id": 2, "day": 1,
+    "sentence": "My sister wants to ____ a doctor in the future.",
+    "choices": ["happen", "become", "belong", "sound"],
+    "answer": 1,
+    "explanation": "become は「〜になる」。将来医者になりたいので become が正解。",
+    "word": "become"
+  },
+  {
+    "id": 3, "day": 1,
+    "sentence": "The movie was so ____ that everyone laughed.",
+    "choices": ["serious", "nervous", "funny", "angry"],
+    "answer": 2,
+    "explanation": "funny は「おもしろい・おかしい」。みんなが笑ったので funny が正解。",
+    "word": "funny"
+  },
+  {
+    "id": 4, "day": 1,
+    "sentence": "Please ____ this letter to the post office.",
+    "choices": ["deliver", "discover", "design", "destroy"],
+    "answer": 0,
+    "explanation": "deliver は「届ける・配達する」。手紙を郵便局に届けるので deliver が正解。",
+    "word": "deliver"
+  },
+  {
+    "id": 5, "day": 1,
+    "sentence": "I was ____ to hear the good news.",
+    "choices": ["worried", "upset", "excited", "crowded"],
+    "answer": 2,
+    "explanation": "excited は「ワクワクした・興奮した」。良いニュースを聞いて嬉しいので excited が正解。",
+    "word": "excited"
+  },
+  {
+    "id": 6, "day": 1,
+    "sentence": "He ____ his homework before dinner.",
+    "choices": ["finished", "escaped", "attacked", "spread"],
+    "answer": 0,
+    "explanation": "finished は「終わらせた」。夕食前に宿題を終えたので finished が正解。",
+    "word": "finish"
+  },
+  {
+    "id": 7, "day": 1,
+    "sentence": "We should ____ the environment for the future.",
+    "choices": ["waste", "protect", "steal", "fold"],
+    "answer": 1,
+    "explanation": "protect は「守る・保護する」。環境を守るべきなので protect が正解。",
+    "word": "protect"
+  },
+  {
+    "id": 8, "day": 1,
+    "sentence": "There are ____ students in the library today.",
+    "choices": ["several", "empty", "bright", "poor"],
+    "answer": 0,
+    "explanation": "several は「いくつかの・数人の」。図書館に何人かの生徒がいるので several が正解。",
+    "word": "several"
+  },
+  {
+    "id": 9, "day": 1,
+    "sentence": "I ____ my keys somewhere in the house.",
+    "choices": ["counted", "crossed", "lost", "boiled"],
+    "answer": 2,
+    "explanation": "lost は「なくした」。家のどこかで鍵をなくしたので lost が正解。",
+    "word": "lose"
+  },
+  {
+    "id": 10, "day": 1,
+    "sentence": "She ____ to study abroad next year.",
+    "choices": ["decides", "agrees", "promises", "plans"],
+    "answer": 3,
+    "explanation": "plans は「計画する」。来年留学する予定なので plans が正解。",
+    "word": "plan"
+  },
+  {
+    "id": 11, "day": 2,
+    "sentence": "He ____ the mountain with his friends last weekend.",
+    "choices": ["climbed", "collected", "carried", "counted"],
+    "answer": 0,
+    "explanation": "climbed は「登った」。山に登ったので climbed が正解。",
+    "word": "climb"
+  },
+  {
+    "id": 12, "day": 2,
+    "sentence": "The bus was very ____, so I had to stand.",
+    "choices": ["empty", "crowded", "simple", "dry"],
+    "answer": 1,
+    "explanation": "crowded は「混んでいる」。立たなければならなかったので crowded が正解。",
+    "word": "crowded"
+  },
+  {
+    "id": 13, "day": 2,
+    "sentence": "She ____ a letter from her grandmother yesterday.",
+    "choices": ["spent", "received", "wasted", "wrapped"],
+    "answer": 1,
+    "explanation": "received は「受け取った」。おばあちゃんから手紙を受け取ったので received が正解。",
+    "word": "receive"
+  },
+  {
+    "id": 14, "day": 2,
+    "sentence": "This book is very ____ among young people.",
+    "choices": ["popular", "dangerous", "strange", "necessary"],
+    "answer": 0,
+    "explanation": "popular は「人気のある」。若者に人気なので popular が正解。",
+    "word": "popular"
+  },
+  {
+    "id": 15, "day": 2,
+    "sentence": "We need to ____ a decision by tomorrow.",
+    "choices": ["take", "make", "give", "keep"],
+    "answer": 1,
+    "explanation": "make a decision は「決定する」という熟語。明日までに決めるので make が正解。",
+    "word": "make a decision"
+  },
+  {
+    "id": 16, "day": 2,
+    "sentence": "The ____ of this city is about 500,000 people.",
+    "choices": ["pollution", "population", "position", "production"],
+    "answer": 1,
+    "explanation": "population は「人口」。この街の人口は約50万人なので population が正解。",
+    "word": "population"
+  },
+  {
+    "id": 17, "day": 2,
+    "sentence": "Don't forget to ____ off the light when you leave.",
+    "choices": ["put", "take", "turn", "get"],
+    "answer": 2,
+    "explanation": "turn off は「消す」という熟語。電気を消すので turn が正解。",
+    "word": "turn off"
+  },
+  {
+    "id": 18, "day": 2,
+    "sentence": "She ____ very hard for the math exam.",
+    "choices": ["studied", "traveled", "performed", "guessed"],
+    "answer": 0,
+    "explanation": "studied は「勉強した」。数学のテストのために一生懸命勉強したので studied が正解。",
+    "word": "study"
+  },
+  {
+    "id": 19, "day": 2,
+    "sentence": "The weather ____ changed suddenly this afternoon.",
+    "choices": ["easily", "recently", "suddenly", "carefully"],
+    "answer": 2,
+    "explanation": "suddenly は「突然」。今日の午後、天気が突然変わったので suddenly が正解。",
+    "word": "suddenly"
+  },
+  {
+    "id": 20, "day": 2,
+    "sentence": "He ____ his friend to the birthday party.",
+    "choices": ["invited", "introduced", "invented", "imagined"],
+    "answer": 0,
+    "explanation": "invited は「招待した」。友達を誕生日パーティーに招いたので invited が正解。",
+    "word": "invite"
+  },
+  {
+    "id": 21, "day": 3,
+    "sentence": "I'll ____ you up at the station at 3 p.m.",
+    "choices": ["look", "pick", "turn", "fill"],
+    "answer": 1,
+    "explanation": "pick up は「迎えに行く」という熟語。3時に駅に迎えに行くので pick が正解。",
+    "word": "pick up"
+  },
+  {
+    "id": 22, "day": 3,
+    "sentence": "We had a ____ time at the amusement park.",
+    "choices": ["wonderful", "terrible", "nervous", "serious"],
+    "answer": 0,
+    "explanation": "wonderful は「すばらしい」。遊園地で楽しい時間を過ごしたので wonderful が正解。",
+    "word": "wonderful"
+  },
+  {
+    "id": 23, "day": 3,
+    "sentence": "He ____ a lot of money on video games last month.",
+    "choices": ["saved", "spent", "lent", "borrowed"],
+    "answer": 1,
+    "explanation": "spent は「使った・費やした」。ゲームにたくさんのお金を使ったので spent が正解。",
+    "word": "spend"
+  },
+  {
+    "id": 24, "day": 3,
+    "sentence": "This store gives a 20% ____ on weekends.",
+    "choices": ["score", "prize", "discount", "damage"],
+    "answer": 2,
+    "explanation": "discount は「割引」。週末に20%割引をするので discount が正解。",
+    "word": "discount"
+  },
+  {
+    "id": 25, "day": 3,
+    "sentence": "You should ____ for the book you want at the library.",
+    "choices": ["look", "care", "laugh", "talk"],
+    "answer": 0,
+    "explanation": "look for は「〜を探す」という熟語。図書館で本を探すので look が正解。",
+    "word": "look for"
+  },
+  {
+    "id": 26, "day": 3,
+    "sentence": "She was ____ about the test results.",
+    "choices": ["worried", "famous", "common", "lucky"],
+    "answer": 0,
+    "explanation": "worried は「心配している」。テストの結果を心配しているので worried が正解。",
+    "word": "worried"
+  },
+  {
+    "id": 27, "day": 3,
+    "sentence": "We ____ arrived at the airport just in time.",
+    "choices": ["already", "finally", "still", "yet"],
+    "answer": 1,
+    "explanation": "finally は「ついに・やっと」。ギリギリで空港に着いたので finally が正解。",
+    "word": "finally"
+  },
+  {
+    "id": 28, "day": 3,
+    "sentence": "Could you ____ me your pen? I forgot mine.",
+    "choices": ["borrow", "lend", "steal", "keep"],
+    "answer": 1,
+    "explanation": "lend は「貸す」。ペンを貸してほしいので lend が正解。borrow は「借りる」。",
+    "word": "lend"
+  },
+  {
+    "id": 29, "day": 3,
+    "sentence": "The scientist made an important ____.",
+    "choices": ["experience", "discovery", "memory", "furniture"],
+    "answer": 1,
+    "explanation": "discovery は「発見」。科学者が重要な発見をしたので discovery が正解。",
+    "word": "discovery"
+  },
+  {
+    "id": 30, "day": 3,
+    "sentence": "He ____ the race and won first prize.",
+    "choices": ["joined", "followed", "missed", "failed"],
+    "answer": 0,
+    "explanation": "joined は「参加した」。レースに参加して1位になったので joined が正解。",
+    "word": "join"
+  },
+  {
+    "id": 31, "day": 4,
+    "sentence": "She takes ____ of her little brother after school.",
+    "choices": ["part", "care", "place", "note"],
+    "answer": 1,
+    "explanation": "take care of は「〜の世話をする」という熟語。弟の世話をするので care が正解。",
+    "word": "take care of"
+  },
+  {
+    "id": 32, "day": 4,
+    "sentence": "The concert was ____. I really enjoyed it.",
+    "choices": ["boring", "fantastic", "dangerous", "difficult"],
+    "answer": 1,
+    "explanation": "fantastic は「すばらしい」。コンサートを楽しんだので fantastic が正解。",
+    "word": "fantastic"
+  },
+  {
+    "id": 33, "day": 4,
+    "sentence": "We need to ____ the garbage out every morning.",
+    "choices": ["put", "take", "make", "get"],
+    "answer": 1,
+    "explanation": "take out は「出す」。毎朝ゴミを出す必要があるので take が正解。",
+    "word": "take out"
+  },
+  {
+    "id": 34, "day": 4,
+    "sentence": "The temperature was very low, so the lake ____.",
+    "choices": ["boiled", "froze", "spread", "shook"],
+    "answer": 1,
+    "explanation": "froze は freeze の過去形で「凍った」。気温が低かったので湖が凍ったので froze が正解。",
+    "word": "freeze"
+  },
+  {
+    "id": 35, "day": 4,
+    "sentence": "I'm looking ____ to seeing you again.",
+    "choices": ["up", "after", "forward", "out"],
+    "answer": 2,
+    "explanation": "look forward to は「〜を楽しみにする」という熟語。また会うのが楽しみなので forward が正解。",
+    "word": "look forward to"
+  },
+  {
+    "id": 36, "day": 4,
+    "sentence": "This bag is too heavy for me to ____.",
+    "choices": ["carry", "cross", "count", "collect"],
+    "answer": 0,
+    "explanation": "carry は「運ぶ」。バッグが重すぎて運べないので carry が正解。",
+    "word": "carry"
+  },
+  {
+    "id": 37, "day": 4,
+    "sentence": "He ____ to call his mother, but he was too busy.",
+    "choices": ["forgot", "promised", "decided", "expected"],
+    "answer": 1,
+    "explanation": "promised は「約束した」。母に電話すると約束したが忙しかったので promised が正解。",
+    "word": "promise"
+  },
+  {
+    "id": 38, "day": 4,
+    "sentence": "There was a big ____ near my house last night.",
+    "choices": ["accident", "discount", "instrument", "schedule"],
+    "answer": 0,
+    "explanation": "accident は「事故」。昨夜、家の近くで大きな事故があったので accident が正解。",
+    "word": "accident"
+  },
+  {
+    "id": 39, "day": 4,
+    "sentence": "She can play the piano very ____.",
+    "choices": ["easily", "lonely", "lately", "hardly"],
+    "answer": 0,
+    "explanation": "easily は「簡単に・上手に」。ピアノを簡単に弾けるので easily が正解。",
+    "word": "easily"
+  },
+  {
+    "id": 40, "day": 4,
+    "sentence": "My father ____ me how to ride a bicycle.",
+    "choices": ["taught", "reached", "noticed", "guessed"],
+    "answer": 0,
+    "explanation": "taught は teach の過去形で「教えた」。自転車の乗り方を教えてくれたので taught が正解。",
+    "word": "teach"
+  },
+  {
+    "id": 41, "day": 5,
+    "sentence": "I was talking ____ the phone when she arrived.",
+    "choices": ["in", "at", "on", "by"],
+    "answer": 2,
+    "explanation": "on the phone は「電話で」という熟語。電話中だったので on が正解。",
+    "word": "on the phone"
+  },
+  {
+    "id": 42, "day": 5,
+    "sentence": "She ____ the answer to the difficult question.",
+    "choices": ["looked out", "found out", "turned out", "ran out"],
+    "answer": 1,
+    "explanation": "found out は「見つけ出した・わかった」。難しい問題の答えを見つけたので found out が正解。",
+    "word": "find out"
+  },
+  {
+    "id": 43, "day": 5,
+    "sentence": "Please ____ in this form with your name and address.",
+    "choices": ["fill", "turn", "take", "put"],
+    "answer": 0,
+    "explanation": "fill in は「記入する」という熟語。名前と住所を記入するので fill が正解。",
+    "word": "fill in"
+  },
+  {
+    "id": 44, "day": 5,
+    "sentence": "The museum is ____ on Mondays.",
+    "choices": ["open", "closed", "crowded", "free"],
+    "answer": 1,
+    "explanation": "closed は「閉まっている」。月曜日は美術館が閉館なので closed が正解。",
+    "word": "closed"
+  },
+  {
+    "id": 45, "day": 5,
+    "sentence": "He's ____ in Japanese history.",
+    "choices": ["excited", "worried", "interested", "surprised"],
+    "answer": 2,
+    "explanation": "interested in は「〜に興味がある」。日本の歴史に興味があるので interested が正解。",
+    "word": "be interested in"
+  },
+  {
+    "id": 46, "day": 5,
+    "sentence": "My grandfather likes to ____ stamps from different countries.",
+    "choices": ["collect", "connect", "correct", "control"],
+    "answer": 0,
+    "explanation": "collect は「集める」。いろいろな国の切手を集めるので collect が正解。",
+    "word": "collect"
+  },
+  {
+    "id": 47, "day": 5,
+    "sentence": "This road is ____ enough for two cars.",
+    "choices": ["wide", "tall", "deep", "thick"],
+    "answer": 0,
+    "explanation": "wide は「広い」。2台の車が通れる幅があるので wide が正解。",
+    "word": "wide"
+  },
+  {
+    "id": 48, "day": 5,
+    "sentence": "She ____ to help her mother cook dinner every day.",
+    "choices": ["fails", "tries", "hurts", "misses"],
+    "answer": 1,
+    "explanation": "tries は「努力する・試みる」。毎日母親の料理を手伝おうとするので tries が正解。",
+    "word": "try"
+  },
+  {
+    "id": 49, "day": 5,
+    "sentence": "It was raining, so we stayed home ____ of going out.",
+    "choices": ["because", "instead", "in spite", "regardless"],
+    "answer": 1,
+    "explanation": "instead of は「〜の代わりに」。外出する代わりに家にいたので instead が正解。",
+    "word": "instead of"
+  },
+  {
+    "id": 50, "day": 5,
+    "sentence": "The ____ of the building is very old and beautiful.",
+    "choices": ["design", "discount", "danger", "damage"],
+    "answer": 0,
+    "explanation": "design は「デザイン・設計」。建物のデザインが古くて美しいので design が正解。",
+    "word": "design"
+  },
+  {
+    "id": 51, "day": 6,
+    "sentence": "She left home ____ a hurry this morning.",
+    "choices": ["on", "at", "in", "by"],
+    "answer": 2,
+    "explanation": "in a hurry は「急いで」という熟語。今朝急いで家を出たので in が正解。",
+    "word": "in a hurry"
+  },
+  {
+    "id": 52, "day": 6,
+    "sentence": "____ first, I didn't like the food, but now I love it.",
+    "choices": ["In", "At", "On", "For"],
+    "answer": 1,
+    "explanation": "at first は「最初は」という熟語。最初は好きじゃなかったので At が正解。",
+    "word": "at first"
+  },
+  {
+    "id": 53, "day": 6,
+    "sentence": "We haven't seen each other for ____ a while.",
+    "choices": ["just", "quite", "only", "such"],
+    "answer": 1,
+    "explanation": "quite a while は「かなり長い間」。しばらく会っていないので quite が正解。",
+    "word": "for a while"
+  },
+  {
+    "id": 54, "day": 6,
+    "sentence": "The bird ____ away when I got close.",
+    "choices": ["ran", "flew", "fell", "grew"],
+    "answer": 1,
+    "explanation": "flew は fly の過去形で「飛んだ」。鳥が飛んで逃げたので flew が正解。",
+    "word": "fly"
+  },
+  {
+    "id": 55, "day": 6,
+    "sentence": "Could you ____ me the way to the station?",
+    "choices": ["say", "talk", "tell", "speak"],
+    "answer": 2,
+    "explanation": "tell は「教える・伝える」。駅への道を教えてほしいので tell が正解。",
+    "word": "tell"
+  },
+  {
+    "id": 56, "day": 6,
+    "sentence": "He is ____ at playing the guitar.",
+    "choices": ["fine", "nice", "good", "well"],
+    "answer": 2,
+    "explanation": "be good at は「〜が得意である」という熟語。ギターが得意なので good が正解。",
+    "word": "be good at"
+  },
+  {
+    "id": 57, "day": 6,
+    "sentence": "She ____ a mistake on the test yesterday.",
+    "choices": ["did", "made", "had", "took"],
+    "answer": 1,
+    "explanation": "make a mistake は「間違える」という熟語。テストで間違えたので made が正解。",
+    "word": "make a mistake"
+  },
+  {
+    "id": 58, "day": 6,
+    "sentence": "The news about the earthquake was very ____.",
+    "choices": ["exciting", "shocking", "boring", "interesting"],
+    "answer": 1,
+    "explanation": "shocking は「衝撃的な」。地震のニュースは衝撃的だったので shocking が正解。",
+    "word": "shocking"
+  },
+  {
+    "id": 59, "day": 6,
+    "sentence": "He has ____ finished his homework.",
+    "choices": ["yet", "still", "already", "almost"],
+    "answer": 2,
+    "explanation": "already は「すでに」。もう宿題を終えたので already が正解。",
+    "word": "already"
+  },
+  {
+    "id": 60, "day": 6,
+    "sentence": "She wants to ____ a volunteer activity this summer.",
+    "choices": ["take part in", "take care of", "look up to", "get out of"],
+    "answer": 0,
+    "explanation": "take part in は「参加する」。ボランティア活動に参加したいので take part in が正解。",
+    "word": "take part in"
+  },
+  {
+    "id": 61, "day": 7,
+    "sentence": "The ____ of Tokyo is one of the largest in the world.",
+    "choices": ["opinion", "culture", "capital", "health"],
+    "answer": 2,
+    "explanation": "capital は「首都」。東京は世界最大の首都の一つなので capital が正解。",
+    "word": "capital"
+  },
+  {
+    "id": 62, "day": 7,
+    "sentence": "He ____ the river to get to the other side.",
+    "choices": ["climbed", "crossed", "collected", "carried"],
+    "answer": 1,
+    "explanation": "crossed は「渡った」。川の向こう側に行くために渡ったので crossed が正解。",
+    "word": "cross"
+  },
+  {
+    "id": 63, "day": 7,
+    "sentence": "She ____ noticed that her bag was missing.",
+    "choices": ["recently", "suddenly", "carefully", "quickly"],
+    "answer": 1,
+    "explanation": "suddenly は「突然」。突然バッグがないことに気づいたので suddenly が正解。",
+    "word": "suddenly"
+  },
+  {
+    "id": 64, "day": 7,
+    "sentence": "Can I ____ your dictionary for a moment?",
+    "choices": ["lend", "borrow", "steal", "save"],
+    "answer": 1,
+    "explanation": "borrow は「借りる」。辞書を借りたいので borrow が正解。lend は「貸す」。",
+    "word": "borrow"
+  },
+  {
+    "id": 65, "day": 7,
+    "sentence": "The concert tickets were ____ out in just one hour.",
+    "choices": ["turned", "sold", "given", "taken"],
+    "answer": 1,
+    "explanation": "sold out は「売り切れた」。1時間で完売したので sold が正解。",
+    "word": "sell out"
+  },
+  {
+    "id": 66, "day": 7,
+    "sentence": "She has a lot of ____ in teaching English.",
+    "choices": ["experience", "experiment", "example", "exercise"],
+    "answer": 0,
+    "explanation": "experience は「経験」。英語を教えた経験が豊富なので experience が正解。",
+    "word": "experience"
+  },
+  {
+    "id": 67, "day": 7,
+    "sentence": "This museum has a ____ collection of paintings.",
+    "choices": ["large", "tall", "long", "high"],
+    "answer": 0,
+    "explanation": "large は「大きい・多い」。この美術館はコレクションが多いので large が正解。",
+    "word": "large"
+  },
+  {
+    "id": 68, "day": 7,
+    "sentence": "Don't ____ your time watching TV all day.",
+    "choices": ["spend", "waste", "save", "cost"],
+    "answer": 1,
+    "explanation": "waste は「無駄にする」。一日中テレビを見て時間を無駄にするなので waste が正解。",
+    "word": "waste"
+  },
+  {
+    "id": 69, "day": 7,
+    "sentence": "The park is famous ____ its beautiful cherry blossoms.",
+    "choices": ["to", "with", "for", "about"],
+    "answer": 2,
+    "explanation": "be famous for は「〜で有名」。桜で有名な公園なので for が正解。",
+    "word": "be famous for"
+  },
+  {
+    "id": 70, "day": 7,
+    "sentence": "I need to ____ sure that I have my passport.",
+    "choices": ["do", "make", "take", "get"],
+    "answer": 1,
+    "explanation": "make sure は「確認する」。パスポートを持っているか確認するので make が正解。",
+    "word": "make sure"
+  },
+  {
+    "id": 71, "day": 8,
+    "sentence": "She ____ to her new school quickly.",
+    "choices": ["agreed", "appeared", "adjusted", "allowed"],
+    "answer": 2,
+    "explanation": "adjusted は「順応した・適応した」。新しい学校にすぐ慣れたので adjusted が正解。",
+    "word": "adjust"
+  },
+  {
+    "id": 72, "day": 8,
+    "sentence": "He wrapped the present ____ for his mother.",
+    "choices": ["recently", "carefully", "suddenly", "finally"],
+    "answer": 1,
+    "explanation": "carefully は「丁寧に」。母親へのプレゼントを丁寧に包んだので carefully が正解。",
+    "word": "carefully"
+  },
+  {
+    "id": 73, "day": 8,
+    "sentence": "I completely ____ with your opinion.",
+    "choices": ["agree", "believe", "accept", "expect"],
+    "answer": 0,
+    "explanation": "agree with は「〜に同意する」。あなたの意見に完全に同意するので agree が正解。",
+    "word": "agree"
+  },
+  {
+    "id": 74, "day": 8,
+    "sentence": "The bottle is ____. We need to buy more water.",
+    "choices": ["full", "empty", "broken", "heavy"],
+    "answer": 1,
+    "explanation": "empty は「空の」。ボトルが空なので水を買う必要があるので empty が正解。",
+    "word": "empty"
+  },
+  {
+    "id": 75, "day": 8,
+    "sentence": "She came to the party ____ her own.",
+    "choices": ["by", "in", "on", "at"],
+    "answer": 2,
+    "explanation": "on her own は「自分ひとりで」という熟語。ひとりでパーティーに来たので on が正解。",
+    "word": "on one's own"
+  },
+  {
+    "id": 76, "day": 8,
+    "sentence": "The ____ told us to fasten our seatbelts.",
+    "choices": ["passenger", "tourist", "volunteer", "pilot"],
+    "answer": 3,
+    "explanation": "pilot は「パイロット」。シートベルトの着用を伝えたのはパイロットなので pilot が正解。",
+    "word": "pilot"
+  },
+  {
+    "id": 77, "day": 8,
+    "sentence": "I can finish this work ____ you help me.",
+    "choices": ["so", "if", "but", "because"],
+    "answer": 1,
+    "explanation": "if は「もし〜なら」。手伝ってくれたら終えられるので if が正解。",
+    "word": "if"
+  },
+  {
+    "id": 78, "day": 8,
+    "sentence": "She hasn't come to school ____.",
+    "choices": ["already", "still", "yet", "just"],
+    "answer": 2,
+    "explanation": "yet は否定文で「まだ〜ない」。まだ学校に来ていないので yet が正解。",
+    "word": "yet"
+  },
+  {
+    "id": 79, "day": 8,
+    "sentence": "He ____ his grandmother every weekend.",
+    "choices": ["visits", "reaches", "returns", "follows"],
+    "answer": 0,
+    "explanation": "visits は「訪ねる」。毎週末おばあちゃんを訪ねるので visits が正解。",
+    "word": "visit"
+  },
+  {
+    "id": 80, "day": 8,
+    "sentence": "You can come to my house ____.",
+    "choices": ["anywhere", "anytime", "anyone", "anything"],
+    "answer": 1,
+    "explanation": "anytime は「いつでも」。いつでも家に来ていいよなので anytime が正解。",
+    "word": "anytime"
+  }
+]
