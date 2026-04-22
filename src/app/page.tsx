@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 import { getWorldProgress, isWorldCleared, getMissedQuestions, type DayProgress } from '@/lib/storage';
 import { getCollectedRewards, getAllRewards, getCollectionCount } from '@/lib/rewards';
 import Splash from '@/components/Splash';
@@ -9,8 +9,33 @@ import BgmPlayer from '@/components/BgmPlayer';
 import { PixelStar, PixelCrown, PixelGlobe, PixelLock, PixelBolt, PixelNote, PixelCheck } from '@/components/PixelIcons';
 
 const STAGES = [1, 2, 3, 4, 5, 6, 7, 8];
+const EXAM_DATE_ISO = '2026-05-31'; // 英検3級 一次試験
 
-function StageCard({ stage, world, progress }: { stage: number; world: number; progress?: DayProgress }) {
+function getDifficulty(stage: number): 1 | 2 | 3 {
+  if (stage <= 2) return 1;
+  if (stage <= 5) return 2;
+  return 3;
+}
+
+const DIFF_LABEL: Record<1 | 2 | 3, string> = {
+  1: 'やさしい',
+  2: 'ふつう',
+  3: 'むずかしい',
+};
+const DIFF_COLOR: Record<1 | 2 | 3, string> = {
+  1: '#34D399',
+  2: '#FDE047',
+  3: '#EF4444',
+};
+
+function getDaysUntilExam(): number {
+  const nowJst = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+  nowJst.setHours(0, 0, 0, 0);
+  const exam = new Date(`${EXAM_DATE_ISO}T00:00:00+09:00`);
+  return Math.ceil((exam.getTime() - nowJst.getTime()) / (1000 * 60 * 60 * 24));
+}
+
+function StageCard({ stage, world, progress, locked }: { stage: number; world: number; progress?: DayProgress; locked: boolean }) {
   const fillDone = progress?.fill?.completed;
   const defDone = progress?.definition?.completed;
   const readDone = progress?.reading?.completed;
@@ -20,6 +45,28 @@ function StageCard({ stage, world, progress }: { stage: number; world: number; p
   const readPerfect = progress?.reading?.perfect;
   const allPerfect = fillPerfect && defPerfect && readPerfect;
 
+  const diff = getDifficulty(stage);
+  const diffStars = '★'.repeat(diff) + '☆'.repeat(3 - diff);
+
+  if (locked) {
+    return (
+      <div className="block rounded-none p-4 pixel-card opacity-60 cursor-not-allowed relative">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-lg font-black text-gray-500 font-pixel">
+            ステージ {stage}
+          </span>
+          <PixelLock size={18} />
+        </div>
+        <div className="text-[11px] font-pixel mb-2" style={{ color: DIFF_COLOR[diff] }}>
+          {diffStars} <span className="text-gray-500 ml-1">{DIFF_LABEL[diff]}</span>
+        </div>
+        <p className="text-[10px] text-gray-400 font-pixel leading-relaxed">
+          まえのステージを<br />クリアしてね
+        </p>
+      </div>
+    );
+  }
+
   return (
     <a
       href={`/day/${stage}?world=${world}`}
@@ -27,7 +74,7 @@ function StageCard({ stage, world, progress }: { stage: number; world: number; p
         allDone ? 'pixel-card-complete' : 'pixel-card'
       }`}
     >
-      <div className="flex items-center justify-between mb-3">
+      <div className="flex items-center justify-between mb-1">
         <span className="text-lg font-black text-white font-pixel">
           <span className="text-kpink">ステージ</span> {stage}
         </span>
@@ -36,6 +83,9 @@ function StageCard({ stage, world, progress }: { stage: number; world: number; p
             {allPerfect ? <PixelCrown size={18} /> : <PixelStar size={16} />}
           </span>
         )}
+      </div>
+      <div className="text-[11px] font-pixel mb-2" style={{ color: DIFF_COLOR[diff] }}>
+        {diffStars} <span className="text-gray-400 ml-1">{DIFF_LABEL[diff]}</span>
       </div>
 
       <div className="flex flex-col gap-1.5 text-xs">
@@ -78,6 +128,7 @@ export default function Home() {
   const [collection, setCollection] = useState({ collected: 0, total: 0 });
   const [world1Cleared, setWorld1Cleared] = useState(false);
   const [missedCount, setMissedCount] = useState(0);
+  const [daysLeft, setDaysLeft] = useState<number | null>(null);
 
   useEffect(() => {
     setProgress(getWorldProgress(world));
@@ -88,6 +139,25 @@ export default function Home() {
       setShowSplash(false);
     }
   }, [world]);
+
+  useEffect(() => {
+    setDaysLeft(getDaysUntilExam());
+    const id = setInterval(() => setDaysLeft(getDaysUntilExam()), 60000);
+    return () => clearInterval(id);
+  }, []);
+
+  const unlockedMap = useMemo(() => {
+    const map: Record<number, boolean> = {};
+    for (const s of STAGES) {
+      if (s === 1) {
+        map[s] = true;
+      } else {
+        const prev = progress[s - 1];
+        map[s] = !!(prev?.fill?.completed && prev?.definition?.completed && prev?.reading?.completed);
+      }
+    }
+    return map;
+  }, [progress]);
 
   const handleSplashComplete = useCallback(() => {
     setShowSplash(false);
@@ -129,7 +199,7 @@ export default function Home() {
         </div>
 
         {completedStages > 0 && (
-          <div className="mt-4 flex items-center justify-center gap-3">
+          <div className="mt-4 flex items-center justify-center gap-3 flex-wrap">
             <div
               className="inline-flex items-center gap-2 bg-kcard text-kpink px-4 py-2 rounded-none text-sm font-bold font-pixel"
               style={{ border: '3px solid var(--color-kpink)', boxShadow: '3px 3px 0 #000' }}
@@ -145,6 +215,28 @@ export default function Home() {
                 正解率 {accuracyPercent}%
               </div>
             )}
+          </div>
+        )}
+
+        {/* 試験カウントダウン */}
+        {daysLeft !== null && (
+          <div className="mt-5 flex flex-col items-center gap-1">
+            <div
+              className="inline-flex items-center gap-3 px-5 py-3 rounded-none bg-kcard font-pixel"
+              style={{ border: '3px solid var(--color-kyellow)', boxShadow: '4px 4px 0 #000' }}
+            >
+              <span className="text-[11px] text-gray-300 tracking-wider">英検3級 一次試験まで</span>
+              {daysLeft > 0 ? (
+                <span className="text-2xl md:text-3xl font-black text-kyellow animate-pixel-blink">
+                  あと {daysLeft} 日
+                </span>
+              ) : daysLeft === 0 ? (
+                <span className="text-2xl md:text-3xl font-black text-kpink animate-pixel-blink">本日！</span>
+              ) : (
+                <span className="text-sm font-bold text-gray-400">試験日をすぎました</span>
+              )}
+            </div>
+            <p className="text-[10px] text-gray-400 font-pixel">試験日: 2026年5月31日 (日)</p>
           </div>
         )}
       </header>
@@ -185,7 +277,13 @@ export default function Home() {
         {/* Stage Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {STAGES.map(stage => (
-            <StageCard key={stage} stage={stage} world={world} progress={progress[stage]} />
+            <StageCard
+              key={stage}
+              stage={stage}
+              world={world}
+              progress={progress[stage]}
+              locked={!unlockedMap[stage]}
+            />
           ))}
         </div>
 
