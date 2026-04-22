@@ -1,10 +1,26 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Rabbit from './Rabbit';
+import { PixelStar } from './PixelIcons';
+
+const PARTICLE_CHARS = ['★', '♪', '✦', '◆', '♦', '●', '■', '▲'];
+const PARTICLE_COLORS = ['text-kpink', 'text-kpurple', 'text-kyellow', 'text-kpink', 'text-kpurple', 'text-white'];
 
 export default function Splash({ onComplete }: { onComplete: () => void }) {
   const [phase, setPhase] = useState(0); // 0=enter, 1=show, 2=exit
+
+  // Generate stable random positions on mount
+  const particles = useMemo(() =>
+    Array.from({ length: 30 }).map((_, i) => ({
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+      fontSize: `${10 + Math.random() * 18}px`,
+      animationDelay: `${Math.random() * 3}s`,
+      char: PARTICLE_CHARS[i % PARTICLE_CHARS.length],
+      color: PARTICLE_COLORS[i % PARTICLE_COLORS.length],
+    })),
+  []);
 
   useEffect(() => {
     const t1 = setTimeout(() => setPhase(1), 100);
@@ -24,19 +40,18 @@ export default function Splash({ onComplete }: { onComplete: () => void }) {
     >
       {/* Background particles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {Array.from({ length: 20 }).map((_, i) => (
+        {particles.map((p, i) => (
           <div
             key={i}
-            className="absolute animate-sparkle"
+            className={`absolute animate-pixel-sparkle font-pixel ${p.color}`}
             style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              fontSize: `${12 + Math.random() * 16}px`,
-              animationDelay: `${Math.random() * 2}s`,
-              animationDuration: `${1.5 + Math.random() * 1.5}s`,
+              left: p.left,
+              top: p.top,
+              fontSize: p.fontSize,
+              animationDelay: p.animationDelay,
             }}
           >
-            {['✨', '💖', '🎵', '⭐', '🎤', '💃'][i % 6]}
+            {p.char}
           </div>
         ))}
       </div>
@@ -46,19 +61,21 @@ export default function Splash({ onComplete }: { onComplete: () => void }) {
         <div className="flex justify-center mb-4">
           <Rabbit mood="cheer" dancing size={100} />
         </div>
-        <h1 className="text-3xl font-black text-white text-center mb-2 tracking-wide">
-          <span className="text-kpink animate-neon">さらちゃん</span>の
+        <h1 className="text-3xl md:text-5xl text-white text-center mb-2 tracking-wide font-pixel">
+          <span className="text-kpink animate-pixel-blink">さらちゃん</span>の
         </h1>
-        <h2 className="text-4xl font-black text-white text-center mb-3 tracking-wider">
+        <h2 className="text-4xl md:text-6xl text-white text-center mb-3 tracking-wider font-pixel">
           英検ステージ
         </h2>
-        <p className="text-sm text-kpurple text-center font-bold tracking-widest mb-6">
-          ✨ EIKEN GRADE 3 DRILL ✨
-        </p>
+        <div className="flex items-center justify-center gap-2 mb-6">
+          <PixelStar size={12} color="#A855F7" />
+          <p className="text-sm md:text-base text-kpurple font-bold tracking-widest font-pixel">EIKEN GRADE 3 DRILL</p>
+          <PixelStar size={12} color="#A855F7" />
+        </div>
         <div className="flex justify-center">
           <div className="text-center">
-            <p className="text-xs text-gray-400 animate-sparkle">らんちゃんと一緒にがんばろう！</p>
-            <p className="text-[10px] text-gray-600 mt-4">タップしてスタート</p>
+            <p className="text-xs md:text-sm text-gray-300 font-pixel">らんちゃんと一緒にがんばろう！</p>
+            <p className="text-[10px] md:text-xs text-gray-300 mt-4 font-pixel animate-pixel-blink">タップしてスタート</p>
           </div>
         </div>
       </div>

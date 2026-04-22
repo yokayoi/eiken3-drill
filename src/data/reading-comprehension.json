@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "day": 1,
+    "type": "notice",
+    "title": "School Library — Special Schedule",
+    "passage": "Attention, all students!\n\nThe school library will be closed from Monday, June 10 to Wednesday, June 12. During these days, we will put new books on the shelves. Please return all library books by Friday, June 7.\n\nThe library will open again on Thursday, June 13, at 8:30 a.m. If you have any questions, please ask Ms. Tanaka at the library desk.",
+    "translation": "生徒のみなさんへ。学校図書館は6月10日(月)から12日(水)まで閉館します。この間、新しい本を棚に並べます。図書館の本は6月7日(金)までに返却してください。6月13日(木)の朝8時30分から再オープンします。質問があればカウンターの田中先生へ。",
+    "questions": [
+      {
+        "q": "Why will the library be closed?",
+        "choices": ["To clean the windows.", "To put new books on the shelves.", "To paint the walls.", "To fix the computers."],
+        "answer": 1,
+        "explanation": "本文に「put new books on the shelves(新しい本を棚に並べる)」とあるのでB。",
+        "translation": "図書館はなぜ閉まる？ → 新しい本を棚に並べるため。"
+      },
+      {
+        "q": "When must students return their library books?",
+        "choices": ["By June 7.", "By June 10.", "By June 12.", "By June 13."],
+        "answer": 0,
+        "explanation": "「return all library books by Friday, June 7」と明記。by Friday = 6月7日まで。",
+        "translation": "本は6月7日(金)までに返す必要がある。"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "day": 1,
+    "type": "email",
+    "title": "Math Homework Help",
+    "passage": "From: Emily\nTo: Sarah\nDate: May 15\nSubject: Can you help me?\n\nHi Sarah,\n\nHow are you? I hope you are doing well. I have a problem with my math homework. Today in class, I tried to listen carefully, but I did not understand the part about fractions. Can you help me? You are always good at math.\n\nMy mom said I can invite you to our house on Saturday. We can work on our homework together in my room. After that, we can have lunch. My mom will make pizza. Do you like pizza?\n\nPlease write back soon. I need to tell my mom how many people will eat lunch.\n\nYour friend,\nEmily",
+    "translation": "エミリーからサラへのメール。算数の分数が分からないので土曜日に家に来て一緒に宿題をしないかと誘っている。お昼はお母さんがピザを作ってくれる。返事を早くしてほしい（お母さんに人数を伝えるため）。",
+    "questions": [
+      {
+        "q": "What is Emily's problem?",
+        "choices": ["She is sick.", "She lost her book.", "She doesn't understand her math homework.", "She broke her computer."],
+        "answer": 2,
+        "explanation": "「I did not understand the part about fractions(分数が分からなかった)」とあるのでC。",
+        "translation": "エミリーの悩みは算数の宿題が分からないこと。"
+      },
+      {
+        "q": "What will the girls do on Saturday?",
+        "choices": ["Go to the library.", "Work on homework and have lunch.", "Watch a movie.", "Go shopping."],
+        "answer": 1,
+        "explanation": "「work on our homework together ... After that, we can have lunch」とあるのでB。",
+        "translation": "土曜日は宿題をしてランチを食べる。"
+      },
+      {
+        "q": "Why does Emily want Sarah to reply soon?",
+        "choices": ["Her mom needs to know how many people to cook for.", "Emily is going on a trip.", "Emily is moving to a new house.", "Sarah is her best friend."],
+        "answer": 0,
+        "explanation": "「I need to tell my mom how many people will eat lunch」が根拠。人数を母に伝えるため。",
+        "translation": "早く返事が欲しいのはお母さんに昼食の人数を伝えるため。"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "day": 1,
+    "type": "passage",
+    "title": "Sara and Her Hamster",
+    "passage": "Sara is twelve years old. She lives with her parents and her little brother, Ken, in Yokohama. Last month, Sara's father gave her a small hamster for her birthday. Sara named her hamster Mocha because its color looks like chocolate milk.\n\nAt first, Sara did not know how to take care of a hamster. She went to the library and borrowed three books about hamsters. She read them every night before bed. Now Sara knows what Mocha likes to eat, how often to clean the cage, and even what kinds of toys are safe.\n\nEvery morning, Sara gives Mocha fresh water and some vegetables. Her brother Ken loves to watch Mocha run in the wheel. Sometimes Ken asks, \"Can I feed her too?\" Sara is happy to teach him.\n\nSara wants to be a veterinarian when she grows up. She thinks Mocha is her first step to learning about animals.",
+    "translation": "サラは12歳で横浜に両親と弟ケンと住んでいる。先月、父から誕生日にハムスターをもらい「モカ」と名付けた(色がチョコレートミルクのようだから)。最初は世話が分からず図書館で3冊借りて毎晩読んだ。今は餌・掃除・安全なおもちゃを理解。毎朝水と野菜をあげる。弟のケンも一緒に世話をしたがる。サラは将来獣医になりたい。",
+    "questions": [
+      {
+        "q": "Who gave Sara the hamster?",
+        "choices": ["Her mother.", "Her father.", "Her brother.", "Her friend."],
+        "answer": 1,
+        "explanation": "「Sara's father gave her a small hamster for her birthday」とある。",
+        "translation": "父がハムスターをくれた。"
+      },
+      {
+        "q": "How did Sara learn to take care of a hamster?",
+        "choices": ["She asked her teacher.", "She watched videos.", "She read books from the library.", "She went to a pet shop."],
+        "answer": 2,
+        "explanation": "「borrowed three books about hamsters」「read them every night」が根拠。",
+        "translation": "図書館で本を借りて読んだ。"
+      },
+      {
+        "q": "What does Sara want to be when she grows up?",
+        "choices": ["A chef.", "A teacher.", "A veterinarian.", "A writer."],
+        "answer": 2,
+        "explanation": "「Sara wants to be a veterinarian」と明記。",
+        "translation": "獣医になりたい。"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "day": 2,
+    "type": "notice",
+    "title": "Midori Elementary School Sports Festival",
+    "passage": "Date: Saturday, October 21\nTime: 9:00 a.m. — 3:00 p.m.\nPlace: School Ground\n\nAll students will take part in team games, relay races, and dancing. Parents and family members are welcome! Please bring your own lunch and a plastic sheet to sit on. Drinks will be given for free.\n\nIf it rains, the festival will move to Sunday, October 22.",
+    "translation": "みどり小学校 運動会のお知らせ。10月21日(土)9時〜15時、校庭で開催。団体競技・リレー・ダンスに全生徒が参加。家族の見学歓迎。お弁当と敷物を持参。飲み物は無料配布。雨の場合は10/22(日)に順延。",
+    "questions": [
+      {
+        "q": "What should families bring to the festival?",
+        "choices": ["A tent.", "Lunch and a plastic sheet.", "Drinks and snacks.", "A camera only."],
+        "answer": 1,
+        "explanation": "「bring your own lunch and a plastic sheet to sit on」と明記。",
+        "translation": "お弁当と敷物を持参する。"
+      },
+      {
+        "q": "What will happen if it rains on October 21?",
+        "choices": ["The festival will be canceled.", "The festival will be held indoors.", "The festival will move to October 22.", "The festival will start later."],
+        "answer": 2,
+        "explanation": "「move to Sunday, October 22」が根拠。",
+        "translation": "雨なら10月22日に延期。"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "day": 2,
+    "type": "email",
+    "title": "Birthday Party Invitation",
+    "passage": "From: Mika\nTo: Sarah\nDate: March 3\nSubject: My Birthday Party\n\nHi Sarah,\n\nGuess what? My birthday is next Saturday and I am turning thirteen! My parents said I can have a small party at home. I want to invite you and three other friends.\n\nThe party starts at 2 p.m. and will finish around 5 p.m. We will make cookies together in the kitchen, then watch a movie. My mom will order pizza for dinner.\n\nOne more thing — please do not buy me a present. Just come and have fun. If you really want, you can bring a funny card. I love reading funny messages.\n\nPlease tell me by Thursday if you can come.\n\nLove,\nMika",
+    "translation": "ミカからサラへ。来週土曜、13歳の誕生日パーティを家で開く。2時〜5時。クッキー作り→映画→ピザ。プレゼントは不要、面白いカードだけ歓迎。木曜日までに返事が欲しい。",
+    "questions": [
+      {
+        "q": "How old will Mika be?",
+        "choices": ["Eleven.", "Twelve.", "Thirteen.", "Fourteen."],
+        "answer": 2,
+        "explanation": "「I am turning thirteen」と書いてある。",
+        "translation": "ミカは13歳になる。"
+      },
+      {
+        "q": "What will the girls do first at the party?",
+        "choices": ["Watch a movie.", "Eat pizza.", "Make cookies.", "Play games."],
+        "answer": 2,
+        "explanation": "「make cookies together ... then watch a movie」と時系列で書かれている。",
+        "translation": "まずクッキー作り。"
+      },
+      {
+        "q": "What does Mika ask Sarah NOT to do?",
+        "choices": ["Come to the party.", "Buy her a present.", "Write a card.", "Bring her friend."],
+        "answer": 1,
+        "explanation": "「please do not buy me a present」と明記。",
+        "translation": "プレゼントは買ってこないで、と頼んでいる。"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "day": 2,
+    "type": "passage",
+    "title": "A Day at the Zoo",
+    "passage": "Last Sunday, Ken and his family went to Ueno Zoo in Tokyo. It was a warm and sunny day, perfect for walking. Ken is ten years old and loves animals, so he was very excited.\n\nFirst, they saw the pandas. A baby panda was climbing a tree, and many people were taking pictures. Ken's little sister, Yui, was so happy that she shouted, \"Cute! Cute!\"\n\nAfter lunch, they visited the elephant area. An elephant was eating hay, and Ken drew a picture of it in his notebook. Ken wants to be an artist, and he draws animals almost every day.\n\nThe last place they visited was the monkey area. The monkeys were jumping from tree to tree. Yui laughed and laughed. On the way home, Ken said, \"Thank you for today, Mom. The zoo was the best!\" His mother smiled and said, \"Let's come again next month.\"",
+    "translation": "先週の日曜、ケン家族は上野動物園へ。暖かく晴天。ケンは10歳で動物好き。最初にパンダの赤ちゃんが木登りをしていて妹のユイが「かわいい！」と叫んだ。昼食後ゾウエリアへ。ゾウが干し草を食べているのをケンはノートに絵にした(将来は画家志望)。最後にサル山でサルが木から木へ飛び、ユイは大笑い。帰り際ケンは母にお礼。母は来月もまた行こうと答えた。",
+    "questions": [
+      {
+        "q": "How was the weather that day?",
+        "choices": ["Cold and cloudy.", "Rainy.", "Warm and sunny.", "Snowy."],
+        "answer": 2,
+        "explanation": "「a warm and sunny day」と書いてある。",
+        "translation": "暖かく晴れた日。"
+      },
+      {
+        "q": "What did Ken do at the elephant area?",
+        "choices": ["He drew a picture.", "He took a photo.", "He fed the elephant.", "He bought a toy."],
+        "answer": 0,
+        "explanation": "「drew a picture of it in his notebook」と明記。",
+        "translation": "ノートに絵を描いた。"
+      },
+      {
+        "q": "What did Ken's mother say at the end?",
+        "choices": ["She was tired.", "They should come again next month.", "The zoo was too crowded.", "They needed to hurry home."],
+        "answer": 1,
+        "explanation": "「Let's come again next month」が根拠。",
+        "translation": "また来月来ようと言った。"
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "day": 3,
+    "type": "notice",
+    "title": "New Cafeteria Menu",
+    "passage": "Starting Monday, May 6, our school cafeteria will have a new lunch menu. We listened to students' ideas, so the menu now has more fruits and vegetables. Every Friday will be \"Curry Day,\" and students can choose between chicken curry and vegetable curry.\n\nThe price will stay the same: 350 yen for one set. Please buy meal tickets at the office before 10:00 a.m. on the day you want to eat.",
+    "translation": "5月6日(月)から新メニュー開始。生徒の意見を反映しフルーツと野菜を増量。毎週金曜は「カレーの日」で、チキンカレーか野菜カレーを選択できる。料金は350円のまま据え置き。食券は当日10時前に事務室で購入。",
+    "questions": [
+      {
+        "q": "What is new about the cafeteria menu?",
+        "choices": ["The price is higher.", "There are more fruits and vegetables.", "Lunch is free.", "The cafeteria is closed on Fridays."],
+        "answer": 1,
+        "explanation": "「more fruits and vegetables」とある。",
+        "translation": "果物と野菜が増えたのが新しい点。"
+      },
+      {
+        "q": "When must students buy meal tickets?",
+        "choices": ["Before 10:00 a.m. on the same day.", "The day before.", "At lunch time.", "One week before."],
+        "answer": 0,
+        "explanation": "「before 10:00 a.m. on the day」が根拠。",
+        "translation": "食べる日の朝10時までに購入。"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "day": 3,
+    "type": "email",
+    "title": "Weekend Plans",
+    "passage": "From: Ryo\nTo: Daniel\nDate: April 18\nSubject: Let's do something!\n\nHi Daniel,\n\nAre you free this weekend? I have two ideas, but I cannot decide. Maybe you can help me.\n\nFirst idea: We could go fishing at the lake near my grandfather's house. My grandpa has two fishing rods, so we do not need to buy anything. The train takes about one hour.\n\nSecond idea: A new science museum opened in the city last week. My brother went last Sunday and said it was really cool. There are robots you can touch, and a space room with stars on the ceiling.\n\nFishing is cheaper, but the museum sounds more exciting. What do you think? If we go to the museum, I will need to save some money from my allowance.\n\nText me back,\nRyo",
+    "translation": "リョウからダニエルへ。週末2案で迷っている。①祖父の家近くの湖で釣り（竿あり・電車1時間）②先週オープンした科学博物館（触れるロボット・星空の部屋）。釣りは安いが博物館の方が面白そう。博物館だとお小遣いから貯金が必要。返事がほしい。",
+    "questions": [
+      {
+        "q": "Why does Ryo write to Daniel?",
+        "choices": ["To borrow money.", "To help him choose a weekend plan.", "To invite him to his grandpa's house.", "To ask about homework."],
+        "answer": 1,
+        "explanation": "「I cannot decide. Maybe you can help me」と書いている。",
+        "translation": "週末の予定を決める相談をしている。"
+      },
+      {
+        "q": "What does Ryo's grandfather have?",
+        "choices": ["A boat.", "Two fishing rods.", "A science book.", "A new car."],
+        "answer": 1,
+        "explanation": "「My grandpa has two fishing rods」が根拠。",
+        "translation": "釣竿を2本持っている。"
+      },
+      {
+        "q": "What is the second idea?",
+        "choices": ["Going to a movie.", "Visiting a new science museum.", "Playing video games.", "Going to a park."],
+        "answer": 1,
+        "explanation": "「A new science museum opened」と書いてある。",
+        "translation": "新しい科学博物館に行くこと。"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "day": 3,
+    "type": "passage",
+    "title": "Learning to Swim",
+    "passage": "When Hiroshi was eight years old, he was afraid of water. His friends went to the pool every summer, but Hiroshi always found a reason to stay home. He read books or played video games alone. He did not tell anyone that he could not swim.\n\nOne day, his older cousin, Takeru, visited from Osaka. Takeru was on the swim team at his high school. He noticed that Hiroshi never wanted to go to the pool. Takeru did not laugh. Instead, he said kindly, \"Would you like me to teach you? We can start in the shallow part.\"\n\nThe first lesson was hard. Hiroshi was scared and held Takeru's arm very tightly. But Takeru was patient. He showed Hiroshi how to breathe and how to float on his back. After two weeks, Hiroshi could swim ten meters by himself.\n\nNow Hiroshi is twelve, and he joined the school swim team last month. He still remembers what Takeru told him: \"Everyone is scared at first. That is okay.\"",
+    "translation": "ヒロシは8歳のとき水が怖かった。夏に友達がプールに行ってもいつも理由をつけて家で本かゲーム。泳げないことは秘密。ある日、大阪の年上のいとこタケル（高校水泳部）が訪ねてきて、プールを避けていることに気づく。タケルは笑わず「浅いところから教えよう」と優しく提案。最初は怖くて腕をぎゅっと握ったが、タケルは辛抱強く呼吸と背浮きを教えた。2週間で10m自力で泳げた。今12歳のヒロシは先月学校の水泳部に入部。「最初はみんな怖い。それでいいんだ」というタケルの言葉を今も覚えている。",
+    "questions": [
+      {
+        "q": "Why didn't Hiroshi go to the pool?",
+        "choices": ["He was busy with homework.", "He didn't like his friends.", "He could not swim and was afraid.", "The pool was too far."],
+        "answer": 2,
+        "explanation": "「he was afraid of water」「could not swim」が根拠。",
+        "translation": "泳げなくて水が怖かったから。"
+      },
+      {
+        "q": "Who taught Hiroshi to swim?",
+        "choices": ["His father.", "His brother.", "His teacher.", "His cousin Takeru."],
+        "answer": 3,
+        "explanation": "「his older cousin, Takeru ... teach you」と書いてある。",
+        "translation": "いとこのタケル。"
+      },
+      {
+        "q": "What did Hiroshi do recently?",
+        "choices": ["He won a big race.", "He joined the school swim team.", "He moved to Osaka.", "He bought a new bike."],
+        "answer": 1,
+        "explanation": "「joined the school swim team last month」と明記。",
+        "translation": "学校の水泳部に入った。"
+      }
+    ]
+  },
+
+  {
+    "id": 10,
+    "day": 4,
+    "type": "notice",
+    "title": "Story Time at the City Library",
+    "passage": "Every Saturday in June, the City Library will have a Story Time event for children. A different teacher or parent will read a picture book in English.\n\nTime: 10:30 a.m. — 11:00 a.m.\nPlace: Children's Room (2nd floor)\nFor: Children aged 5 to 10\n\nAfter the story, children can draw a picture about the book and take it home. Pens and paper are free. Parents are welcome to stay and listen.\n\nNo need to sign up — just come!",
+    "translation": "6月の毎土曜、市立図書館でお話会。毎回違う先生や保護者が英語の絵本を読む。10:30〜11:00、2階子どもの部屋、5〜10歳対象。読後に本についての絵を描いて持ち帰れる（道具無料）。保護者の同席歓迎。事前申込不要。",
+    "questions": [
+      {
+        "q": "Who reads the book each Saturday?",
+        "choices": ["A famous writer.", "A librarian.", "A different teacher or parent.", "The mayor."],
+        "answer": 2,
+        "explanation": "「A different teacher or parent will read」と明記。",
+        "translation": "毎回違う先生か保護者。"
+      },
+      {
+        "q": "What can children do after the story?",
+        "choices": ["Eat snacks.", "Draw a picture about the book.", "Watch a movie.", "Play outside."],
+        "answer": 1,
+        "explanation": "「children can draw a picture about the book」が根拠。",
+        "translation": "本についての絵を描く。"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "day": 4,
+    "type": "email",
+    "title": "Thank You For Yesterday",
+    "passage": "From: Aiko\nTo: Mrs. Green\nDate: November 12\nSubject: Thank you!\n\nDear Mrs. Green,\n\nThank you so much for inviting me to your home yesterday. I had such a wonderful time with you and your family. The apple pie you made was the best apple pie I have ever eaten. Can I learn how to make it one day? I would love to make one for my grandmother.\n\nYour garden is beautiful, too. I liked the yellow flowers by the front door. My mother asked me their name, but I forgot to ask you. Could you tell me when you have time?\n\nAlso, please say hi to Max for me. He is such a friendly dog. I hope I can visit again before winter.\n\nYours,\nAiko",
+    "translation": "アイコからグリーン先生への感謝メール。昨日のお招きのお礼、アップルパイが人生最高で作り方を教わりたい(祖母に作ってあげたい)、庭の玄関脇の黄色い花の名前を母が知りたがっているので教えてほしい、犬のマックスによろしく、冬前にまた訪れたい。",
+    "questions": [
+      {
+        "q": "Why is Aiko writing this email?",
+        "choices": ["To ask for help with homework.", "To thank Mrs. Green for inviting her.", "To invite Mrs. Green to her house.", "To buy an apple pie."],
+        "answer": 1,
+        "explanation": "「Thank you so much for inviting me」冒頭から。",
+        "translation": "招待してくれたことへのお礼。"
+      },
+      {
+        "q": "What does Aiko want to learn?",
+        "choices": ["How to grow flowers.", "How to make apple pie.", "How to take care of a dog.", "How to write letters."],
+        "answer": 1,
+        "explanation": "「Can I learn how to make it (= apple pie) one day?」が根拠。",
+        "translation": "アップルパイの作り方を学びたい。"
+      },
+      {
+        "q": "Why does Aiko ask about the yellow flowers?",
+        "choices": ["She wants to buy some.", "Her mother wants to know their name.", "She wants to draw them.", "They smell strange."],
+        "answer": 1,
+        "explanation": "「My mother asked me their name, but I forgot to ask you」が根拠。",
+        "translation": "母が名前を知りたがっているから。"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "day": 4,
+    "type": "passage",
+    "title": "A New School",
+    "passage": "Last spring, Yuka's family moved from Kyoto to Fukuoka because of her father's new job. Yuka was sad to leave her old school. She had many friends there, and she cried the night before she left.\n\nOn the first day at her new school, Yuka did not know anyone. During lunch, she sat alone and ate her rice ball quietly. Then a girl with short hair came to her table and asked, \"Are you the new student? My name is Rin. Can I eat with you?\" Yuka smiled for the first time that day.\n\nRin was kind. She showed Yuka the library, the music room, and the best place to see the cherry blossoms in spring. They talked about their favorite books and found out they both love mystery stories.\n\nAfter two months, Yuka still missed her Kyoto friends, but she also loved her new friend Rin. She wrote a long letter to her best friend in Kyoto and said, \"Fukuoka is becoming my home, too.\"",
+    "translation": "春、ユカ家族は父の転勤で京都から福岡に引っ越した。ユカは前の学校を離れるのが悲しく、前夜に泣いた。初日は誰も知り合いがおらず昼は一人でおにぎり。そこへ短髪のリンが来て「新しい子？一緒に食べない？」と声をかけてくれ、ユカはその日初めて笑顔に。リンは図書室・音楽室・春の桜の名所を案内。ミステリー好きで気が合った。2ヶ月後、京都の友達が恋しい気持ちは残るが、リンも大好きになり、京都の親友に「福岡も私の家になりつつある」と手紙を書いた。",
+    "questions": [
+      {
+        "q": "Why did Yuka's family move to Fukuoka?",
+        "choices": ["Her father got a new job.", "Her mother wanted warmer weather.", "Her grandmother was sick.", "Her school closed."],
+        "answer": 0,
+        "explanation": "「because of her father's new job」と明記。",
+        "translation": "父の新しい仕事のため。"
+      },
+      {
+        "q": "What did Rin do for Yuka?",
+        "choices": ["She gave her a book.", "She ate lunch with her and showed her around.", "She introduced her teacher.", "She helped with her homework."],
+        "answer": 1,
+        "explanation": "昼食を一緒に食べ、校内を案内した。",
+        "translation": "お昼を一緒に食べて校内を案内した。"
+      },
+      {
+        "q": "What kind of stories do both girls love?",
+        "choices": ["Horror stories.", "Love stories.", "Mystery stories.", "Science fiction."],
+        "answer": 2,
+        "explanation": "「both love mystery stories」が根拠。",
+        "translation": "ミステリー小説が好き。"
+      }
+    ]
+  },
+
+  {
+    "id": 13,
+    "day": 5,
+    "type": "notice",
+    "title": "Looking for New Club Members!",
+    "passage": "The Drama Club needs new members!\n\nAre you a student who loves acting, singing, or making costumes? Come and join us! You do not need any experience — only energy and a smile.\n\nFirst meeting: Tuesday, April 16, 4:00 p.m.\nPlace: Music Room 2\n\nWe meet twice a week on Tuesday and Friday. Our big show will be in November. Last year, more than 300 people came to watch.\n\nQuestions? Talk to Ms. Suzuki in the staff room.",
+    "translation": "演劇部員募集！演技・歌・衣装作りが好きな生徒歓迎。経験不問・元気と笑顔があればOK。初回：4/16(火)16:00、音楽室2。週2回(火・金)。大きな公演は11月、昨年は300人以上が観覧。質問は職員室の鈴木先生まで。",
+    "questions": [
+      {
+        "q": "What do you need to join the Drama Club?",
+        "choices": ["Acting experience.", "A special costume.", "Energy and a smile.", "Money for a uniform."],
+        "answer": 2,
+        "explanation": "「only energy and a smile」と明記。",
+        "translation": "元気と笑顔だけ。"
+      },
+      {
+        "q": "How often does the club meet?",
+        "choices": ["Every day.", "Once a week.", "Twice a week.", "Once a month."],
+        "answer": 2,
+        "explanation": "「twice a week on Tuesday and Friday」が根拠。",
+        "translation": "週2回。"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "day": 5,
+    "type": "email",
+    "title": "Come to the Summer Festival!",
+    "passage": "From: Haruki\nTo: Cousin Lisa\nDate: July 5\nSubject: Summer Festival!\n\nHi Lisa,\n\nIt has been a long time since we last met. I hope you and your family are well in Canada.\n\nOur town will have a big summer festival on Saturday, August 10. I am writing because my mom said you might visit Japan this summer. If you come, please join us!\n\nThere will be food stands with takoyaki, yakisoba, and shaved ice. In the evening, there will be fireworks over the river. The fireworks start at 8 p.m. and last about 40 minutes. It is really beautiful.\n\nMany people wear a yukata at the festival. We have an extra one that will fit you. My sister Nanami can help you put it on.\n\nLet me know if you can come!\n\nYour cousin,\nHaruki",
+    "translation": "ハルキからカナダのいとこリサへ。8月10日(土)に町で夏祭り。来日するなら一緒に行こうと誘う。たこ焼き・焼きそば・かき氷の屋台、夜8時から40分間の花火。浴衣(予備あり・姉ナナミが着付け)も着られる。来られるか連絡ほしい。",
+    "questions": [
+      {
+        "q": "When will the summer festival take place?",
+        "choices": ["July 10.", "August 10.", "September 10.", "October 10."],
+        "answer": 1,
+        "explanation": "「Saturday, August 10」と明記。",
+        "translation": "8月10日。"
+      },
+      {
+        "q": "How long do the fireworks last?",
+        "choices": ["About 20 minutes.", "About 40 minutes.", "About 1 hour.", "All night."],
+        "answer": 1,
+        "explanation": "「last about 40 minutes」が根拠。",
+        "translation": "約40分。"
+      },
+      {
+        "q": "Who will help Lisa wear a yukata?",
+        "choices": ["Haruki's mother.", "Haruki's sister Nanami.", "Haruki himself.", "A store clerk."],
+        "answer": 1,
+        "explanation": "「My sister Nanami can help you put it on」が根拠。",
+        "translation": "姉のナナミが着付けを手伝う。"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "day": 5,
+    "type": "passage",
+    "title": "My Grandfather's Garden",
+    "passage": "My grandfather, Kenji, lives in a small village by the sea. He is seventy-five years old, but he still works in his garden every morning. He grows tomatoes, cucumbers, eggplants, and many kinds of herbs.\n\nWhen I was a small child, my grandfather gave me my own little corner of the garden. I planted carrots and strawberries. At first, I was impatient and wanted the plants to grow quickly. My grandfather smiled and said, \"Plants have their own time. We must wait.\"\n\nLast summer, I visited him for two weeks. I helped him water the plants, pull out weeds, and pick fresh vegetables for dinner. He also taught me how to make pickles from cucumbers. I brought some back home, and my mother said they were the best pickles she had ever had.\n\nNow I am studying hard because I want to learn about agriculture at university. My grandfather's garden is where my dream started.",
+    "translation": "祖父ケンジは海辺の小さな村に住み、75歳だが今も毎朝畑仕事。トマト・キュウリ・ナス・ハーブを育てる。幼い頃、祖父は私に庭の一角をくれた。ニンジンとイチゴを植えたが、早く育ってほしくて焦った。祖父は「植物には植物の時間がある。待たなくちゃ」と微笑んだ。去年の夏、2週間祖父の家に滞在し、水やり・草取り・収穫を手伝い、キュウリのぬか漬け作りを教わった。母も絶賛。今は大学で農業を学びたくて勉強中。祖父の畑は夢の原点。",
+    "questions": [
+      {
+        "q": "What does the writer's grandfather do every morning?",
+        "choices": ["He goes fishing.", "He works in his garden.", "He reads the newspaper.", "He takes a walk on the beach."],
+        "answer": 1,
+        "explanation": "「works in his garden every morning」と明記。",
+        "translation": "毎朝、畑で作業する。"
+      },
+      {
+        "q": "What did the grandfather teach the writer last summer?",
+        "choices": ["How to fish.", "How to make pickles from cucumbers.", "How to draw vegetables.", "How to sell food at the market."],
+        "answer": 1,
+        "explanation": "「taught me how to make pickles from cucumbers」が根拠。",
+        "translation": "キュウリのぬか漬けの作り方を教わった。"
+      },
+      {
+        "q": "What does the writer want to study at university?",
+        "choices": ["Cooking.", "Art.", "Agriculture.", "History."],
+        "answer": 2,
+        "explanation": "「learn about agriculture at university」が根拠。",
+        "translation": "農業を学びたい。"
+      }
+    ]
+  },
+
+  {
+    "id": 16,
+    "day": 6,
+    "type": "notice",
+    "title": "Beach Cleaning Volunteers Needed",
+    "passage": "Do you love the ocean?\n\nJoin our Beach Cleaning Day on Sunday, July 14! We will clean up Kita Beach together. Last year, we collected more than 500 kilograms of trash in just three hours.\n\nWhen: 7:00 a.m. — 10:00 a.m.\nWhere: Meet at Kita Beach parking lot\nBring: Hat, water bottle, and a towel\n\nGloves and trash bags will be given at the meeting spot. Free juice and snacks will be waiting for you after the cleaning!\n\nPlease email volunteer@ocean.org by July 10.",
+    "translation": "海が好きな人募集！7/14(日)7:00〜10:00、北浜のビーチクリーン。昨年は3時間で500kg超回収。集合は駐車場、帽子・水筒・タオル持参。軍手とゴミ袋は現地配布、終了後にジュースとお菓子。7/10までにメール登録。",
+    "questions": [
+      {
+        "q": "What do volunteers need to bring?",
+        "choices": ["Gloves and trash bags.", "A hat, water bottle, and towel.", "A camera and snacks.", "Nothing."],
+        "answer": 1,
+        "explanation": "「Bring: Hat, water bottle, and a towel」が根拠。",
+        "translation": "帽子・水筒・タオル。"
+      },
+      {
+        "q": "What will volunteers get after cleaning?",
+        "choices": ["A free T-shirt.", "Money.", "Free juice and snacks.", "A book."],
+        "answer": 2,
+        "explanation": "「Free juice and snacks will be waiting」が根拠。",
+        "translation": "ジュースとお菓子がもらえる。"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "day": 6,
+    "type": "email",
+    "title": "How Was Your Test?",
+    "passage": "From: Dad\nTo: Sophie\nDate: February 22\nSubject: Test results\n\nHi Sophie,\n\nMom told me you got your English test back today. How did it go? I know you studied really hard last week. Even on the weekend, you only watched TV for thirty minutes. I am proud of you.\n\nIf the score is good, I want to celebrate with you. How about a family dinner at your favorite Italian restaurant this Saturday? If the score is not as good as you hoped, that is still okay. What matters is that you tried your best, and we can look at the test together and see what to do next time.\n\nAlso, I will be home a little late tonight because of a work meeting. Please start dinner without me.\n\nLove,\nDad",
+    "translation": "父からソフィーへ。英語テストの結果を聞く。先週ハードに勉強、週末もテレビ30分だけで偉い。点が良ければ土曜日にお気に入りのイタリアンで家族ディナーを祝う。思ったより点が悪くても大丈夫、一緒に見直そう。今夜は仕事の会議で遅くなるので先にご飯を。",
+    "questions": [
+      {
+        "q": "Why is Dad proud of Sophie?",
+        "choices": ["She won a prize.", "She studied really hard for her test.", "She cooked dinner.", "She helped her brother."],
+        "answer": 1,
+        "explanation": "「you studied really hard last week」と明記。",
+        "translation": "テスト前に一生懸命勉強したから。"
+      },
+      {
+        "q": "What does Dad want to do if Sophie's score is good?",
+        "choices": ["Buy her a new phone.", "Give her money.", "Have a family dinner at an Italian restaurant.", "Take her to a concert."],
+        "answer": 2,
+        "explanation": "「a family dinner at your favorite Italian restaurant」が根拠。",
+        "translation": "お気に入りのイタリアンで家族ディナー。"
+      },
+      {
+        "q": "Why will Dad come home late?",
+        "choices": ["He has a work meeting.", "He is going shopping.", "He is visiting a friend.", "The train is late."],
+        "answer": 0,
+        "explanation": "「because of a work meeting」と明記。",
+        "translation": "仕事の会議のため。"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "day": 6,
+    "type": "passage",
+    "title": "The Story of Max",
+    "passage": "Max was a big brown dog who lived with the Brown family in a small town in England. He was seven years old and very smart. The family got him when he was just a puppy, and now he was like a brother to the children, Tom and Lucy.\n\nEvery morning, Max walked with the children to the bus stop. After they went to school, he waited at the door until they came home. The mail carrier, Mr. Smith, always brought a treat for Max. Max remembered the sound of his truck and ran to the gate to say hello.\n\nOne cold winter evening, Lucy went into the garden to find her school bag. She did not notice that the gate was open, and a strong wind pushed her outside. Max followed her quickly. He did not leave her side, and when a strange man came near, Max barked until the man ran away. Then Max brought Lucy back home safely.\n\nThat night, the family gave Max two big dinners. Lucy said, \"Max is the best brother in the world.\"",
+    "translation": "マックスは英国の小さな町でブラウン家と暮らす大型の茶色犬。7歳で賢い。子犬の頃から家族で、トムとルーシーには兄のような存在。毎朝バス停まで子ども達を送り、帰宅まで玄関で待つ。郵便配達員スミスさんはいつもおやつをくれ、マックスはトラックの音で門へ飛び出す。ある冬の夜、ルーシーが鞄を探して庭へ。門が開いていて強風に押し出された。マックスは彼女について離れず、怪しい男が近づくと吠えて追い払い、無事に家へ連れ戻した。その夜家族はマックスに夕食を2回分あげた。ルーシーは「マックスは世界一のお兄ちゃん」と言った。",
+    "questions": [
+      {
+        "q": "How long has Max lived with the Brown family?",
+        "choices": ["For a few weeks.", "Since he was a puppy.", "For two years.", "Only one year."],
+        "answer": 1,
+        "explanation": "「The family got him when he was just a puppy」が根拠。",
+        "translation": "子犬の頃からずっと。"
+      },
+      {
+        "q": "Who always gives Max a treat?",
+        "choices": ["The children's teacher.", "The neighbor.", "Mr. Smith, the mail carrier.", "Lucy's friend."],
+        "answer": 2,
+        "explanation": "「Mr. Smith, always brought a treat for Max」と明記。",
+        "translation": "郵便配達員のスミスさん。"
+      },
+      {
+        "q": "Why did the family give Max two dinners that night?",
+        "choices": ["Because it was his birthday.", "Because he kept Lucy safe from a stranger.", "Because he was too hungry.", "Because it was Christmas."],
+        "answer": 1,
+        "explanation": "マックスが怪しい男から吠えてルーシーを守ったから。",
+        "translation": "怪しい人からルーシーを守ってくれたから。"
+      }
+    ]
+  },
+
+  {
+    "id": 19,
+    "day": 7,
+    "type": "notice",
+    "title": "School Trip to the History Museum",
+    "passage": "Third-grade students will visit the Hayashi History Museum on Friday, September 20.\n\nSchedule:\n8:30 a.m. — Meet at the school gate\n9:00 a.m. — Bus leaves school\n10:00 a.m. — Arrive at the museum\n12:00 p.m. — Lunch in the park next to the museum\n3:00 p.m. — Return to school\n\nBring: Lunch, a water bottle, a notebook, and a pen. Do not bring snacks, games, or large amounts of money. Wear comfortable shoes. Taking photos is not allowed inside the museum.\n\nPermission slips must be returned by September 13.",
+    "translation": "3年生は9/20(金)林歴史博物館へ遠足。8:30校門集合/9:00バス出発/10:00到着/12:00隣の公園で昼食/15:00帰校。持ち物は昼食・水筒・ノート・ペン。お菓子・ゲーム・多額の金は禁止。歩きやすい靴で。館内撮影禁止。許可書は9/13までに提出。",
+    "questions": [
+      {
+        "q": "What time does the bus leave school?",
+        "choices": ["8:30 a.m.", "9:00 a.m.", "10:00 a.m.", "12:00 p.m."],
+        "answer": 1,
+        "explanation": "「9:00 a.m. — Bus leaves school」と明記。",
+        "translation": "9時にバス出発。"
+      },
+      {
+        "q": "What are students NOT allowed to bring?",
+        "choices": ["Lunch.", "A water bottle.", "Snacks or games.", "A notebook."],
+        "answer": 2,
+        "explanation": "「Do not bring snacks, games」が根拠。",
+        "translation": "お菓子やゲームはNG。"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "day": 7,
+    "type": "email",
+    "title": "Camping Trip Plan",
+    "passage": "From: Uncle Bob\nTo: Jake\nDate: June 1\nSubject: Camping this summer!\n\nHey Jake,\n\nYour mom said you finished your final exams. Congratulations! I hope they went well.\n\nI want to invite you to go camping with me this summer, just like last year. This time, I am thinking of Lake Nojiri. It is a three-hour drive from our city, and the water is clean enough to swim in. We can also rent kayaks for 1,500 yen per hour.\n\nI checked the weather and early August looks best. My plan is four days and three nights, from August 5 to 8. If you come, please bring your sleeping bag, swim clothes, and a flashlight. I will bring the tent and cooking tools. Your aunt made you a list of food you like, so do not worry about meals.\n\nOh, one important question — do you want to try fishing this year? I bought a new fishing rod that you can use.\n\nTalk soon,\nUncle Bob",
+    "translation": "ボブおじさんからジェイクへ。試験お疲れ！昨年同様キャンプに誘う。今回は野尻湖(車で3時間、泳げる・カヤックレンタル1500円/時)。天気予報的に8/5〜8の3泊4日がベスト。ジェイクは寝袋・水着・懐中電灯持参、テントと調理道具はおじさん担当。好物リストを叔母が作った。釣りに挑戦したい？新しい竿を買った。",
+    "questions": [
+      {
+        "q": "How long is the drive from their city to Lake Nojiri?",
+        "choices": ["One hour.", "Two hours.", "Three hours.", "Four hours."],
+        "answer": 2,
+        "explanation": "「a three-hour drive from our city」と明記。",
+        "translation": "3時間。"
+      },
+      {
+        "q": "What should Jake bring?",
+        "choices": ["A tent.", "Cooking tools.", "A sleeping bag, swim clothes, and a flashlight.", "Food and water."],
+        "answer": 2,
+        "explanation": "「please bring your sleeping bag, swim clothes, and a flashlight」が根拠。",
+        "translation": "寝袋・水着・懐中電灯。"
+      },
+      {
+        "q": "What new thing has Uncle Bob bought?",
+        "choices": ["A tent.", "A kayak.", "A fishing rod.", "A car."],
+        "answer": 2,
+        "explanation": "「I bought a new fishing rod」と明記。",
+        "translation": "新しい釣り竿。"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "day": 7,
+    "type": "passage",
+    "title": "Summer in the Mountains",
+    "passage": "Mia is a fourteen-year-old girl who lives in a busy city. Every July, her parents send her to her grandmother's house in the mountains of Nagano for two weeks. At first, Mia did not want to go. She missed her smartphone, her favorite cafe, and her friends. There was no Wi-Fi at her grandmother's old wooden house.\n\nHowever, something changed during her third summer there. Mia started going on morning walks with her grandmother. They picked wild blueberries and saw deer in the forest. Her grandmother taught her the names of many birds and flowers. In the afternoon, Mia helped make jam from the blueberries and read old storybooks on the porch.\n\nBy the end of the second week, Mia felt calmer and happier. She slept better at night and did not miss her phone much. She noticed small things, like the color of the sky at sunset and the smell of pine trees after the rain.\n\nThis year will be Mia's fifth summer in the mountains, and this time, she cannot wait to go.",
+    "translation": "ミアは14歳、都会暮らし。毎年7月に長野の祖母宅へ2週間送られる。最初はスマホ・カフェ・友達が恋しく、祖母の古い木造家はWi-Fiもなくて嫌だった。ところが3年目の夏、祖母と朝の散歩を始め、野生ブルーベリー摘みや森で鹿を発見、鳥や花の名前を教わるように。午後はブルーベリージャム作りや縁側で古い物語本を読む。2週間の終わりには心が落ち着き幸せな気持ちに。夜もよく眠れ、スマホが気にならない。夕焼けの色、雨後の松の香りなど小さな事に気づくように。今年で5年目、今回はとても楽しみ。",
+    "questions": [
+      {
+        "q": "Why did Mia not want to go to her grandmother's house at first?",
+        "choices": ["It was too cold.", "She missed her phone and friends.", "Her grandmother was strict.", "The food was bad."],
+        "answer": 1,
+        "explanation": "「missed her smartphone, her favorite cafe, and her friends」が根拠。",
+        "translation": "スマホや友達が恋しかったから。"
+      },
+      {
+        "q": "What did Mia do with her grandmother in the morning?",
+        "choices": ["Watched TV.", "Went to a shop.", "Went on walks and picked blueberries.", "Played video games."],
+        "answer": 2,
+        "explanation": "「morning walks ... picked wild blueberries」が根拠。",
+        "translation": "散歩してブルーベリーを摘んだ。"
+      },
+      {
+        "q": "How did Mia feel by the end of the second week?",
+        "choices": ["Tired and bored.", "Calmer and happier.", "Sick.", "Angry with her parents."],
+        "answer": 1,
+        "explanation": "「Mia felt calmer and happier」が根拠。",
+        "translation": "落ち着いて幸せな気持ちに。"
+      }
+    ]
+  },
+
+  {
+    "id": 22,
+    "day": 8,
+    "type": "notice",
+    "title": "Big Book Sale at Hana Bookstore!",
+    "passage": "Hana Bookstore 30th Anniversary Sale!\n\nFrom Friday, November 1 to Sunday, November 10, all books will be 20% off. Members will get an extra 10% off, so 30% off in total.\n\nSpecial events:\n・November 2 (Sat): Children's story time at 2 p.m.\n・November 5 (Tue): Cooking book writer, Ms. Yoshida, will sign her books from 3 p.m. to 5 p.m.\n・November 9 (Sat): Free coffee for everyone!\n\nBecome a member today at the counter. Membership is free and only takes three minutes.",
+    "translation": "ハナ書店30周年セール。11/1(金)〜11/10(日)全書籍20%OFF。会員はさらに10%OFFで計30%OFF。特別イベント：11/2(土)14時お話会、11/5(火)15〜17時よしだ先生の料理本サイン会、11/9(土)コーヒー無料。会員登録は無料・3分。",
+    "questions": [
+      {
+        "q": "How much discount do members get in total?",
+        "choices": ["10%.", "20%.", "30%.", "40%."],
+        "answer": 2,
+        "explanation": "「20% off ... extra 10% off, so 30% off」と計算して書かれている。",
+        "translation": "会員は合計30%OFF。"
+      },
+      {
+        "q": "What will happen on November 5?",
+        "choices": ["Free coffee for everyone.", "A cooking book writer will sign books.", "Children's story time.", "The store will close early."],
+        "answer": 1,
+        "explanation": "「November 5 (Tue): Cooking book writer ... sign her books」が根拠。",
+        "translation": "料理本作家のサイン会。"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "day": 8,
+    "type": "email",
+    "title": "Our Kyoto School Trip",
+    "passage": "From: Noa\nTo: Grandma\nDate: October 25\nSubject: I'm back from Kyoto!\n\nDear Grandma,\n\nThank you for your postcard. I just came back from our three-day school trip to Kyoto. It was amazing!\n\nOn the first day, we visited Kiyomizu Temple. The view from the top was incredible, and I bought a small bell as a souvenir for you. On the second day, we tried on kimonos and walked around Gion. My friend Rika said I looked like a real Kyoto girl.\n\nThe best part was the third day. We went to a traditional tea ceremony. I did not know that making a cup of tea could be so beautiful and quiet. The teacher said, \"Every cup is a special moment.\" I thought about how you always make tea carefully at your house. Now I understand why.\n\nCan I visit you next weekend? I want to give you the bell and tell you more about the trip.\n\nWith love,\nNoa",
+    "translation": "ノアから祖母へ。京都3日間の修学旅行から帰ったお礼。1日目清水寺(景色最高、祖母へ小さな鈴を購入)、2日目祇園で着物体験(友達のリカに「本物の京都娘みたい」と言われた)、3日目が一番よかった—お茶会で「一杯一杯が特別な瞬間」と先生。祖母がいつも丁寧にお茶を点てる理由が分かった気がする。来週末訪ねたい、鈴を渡して話をしたい。",
+    "questions": [
+      {
+        "q": "Where did Noa go on the first day of the trip?",
+        "choices": ["Gion.", "Kiyomizu Temple.", "A tea ceremony.", "A kimono shop."],
+        "answer": 1,
+        "explanation": "「On the first day, we visited Kiyomizu Temple」と明記。",
+        "translation": "清水寺に行った。"
+      },
+      {
+        "q": "What was the best part of the trip for Noa?",
+        "choices": ["Visiting the temple.", "Trying on a kimono.", "The traditional tea ceremony.", "Shopping for souvenirs."],
+        "answer": 2,
+        "explanation": "「The best part was the third day ... tea ceremony」が根拠。",
+        "translation": "お茶会が一番良かった。"
+      },
+      {
+        "q": "Why does Noa want to visit her grandma next weekend?",
+        "choices": ["To give her the bell and talk about the trip.", "To stay overnight.", "To help with cooking.", "To watch a movie together."],
+        "answer": 0,
+        "explanation": "「give you the bell and tell you more about the trip」が根拠。",
+        "translation": "鈴を渡して旅行の話をするため。"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "day": 8,
+    "type": "passage",
+    "title": "Sara's Dream",
+    "passage": "Sara is thirteen years old, and she has a big dream. She wants to become a chef and open her own restaurant someday. Her interest in cooking started when she was only six. Her mother let her help make cookies, and Sara was surprised that flour, butter, and sugar could become something so delicious.\n\nSince then, Sara has cooked almost every weekend. At first, she made simple dishes like omelets and fried rice. Later, she began to read cookbooks and even watched cooking shows in English to learn new recipes. Her favorite chef is a woman from Italy who makes beautiful pasta.\n\nLast month, Sara's school had a cooking contest. Sara made a chicken and tomato dish using her grandmother's old recipe, but she added fresh basil from her balcony. To her surprise, she won first prize! The judges said her dish was \"simple but full of love.\"\n\nNow Sara writes in a small notebook every night. She calls it her \"Dream Book.\" In it, she draws pictures of the restaurant she wants to open and writes down new recipes she wants to try. One day, she hopes her family will eat at her own restaurant.",
+    "translation": "サラは13歳、大きな夢はシェフになって自分のレストランを開くこと。6歳で母とクッキー作りをした時、小麦粉・バター・砂糖がおいしい物に変わることに驚いたのがきっかけ。以来ほぼ毎週末料理。最初はオムレツや炒飯、その後レシピ本を読んだり英語の料理番組まで見るように。一番のシェフはイタリアの女性でパスタが美しい。先月学校の料理コンテストで祖母の古いレシピのチキントマト料理にバルコニーのバジルを添えて出品し1位。審査員は「シンプルだけど愛情たっぷり」と評価。今は毎晩「夢ノート」にレストランの絵や試したいレシピを書いている。いつか家族を自分の店で食事させたい。",
+    "questions": [
+      {
+        "q": "How did Sara become interested in cooking?",
+        "choices": ["Her father was a chef.", "She made cookies with her mother at age six.", "Her school had a cooking class.", "She watched a movie about food."],
+        "answer": 1,
+        "explanation": "「Her mother let her help make cookies」が根拠。",
+        "translation": "6歳で母とクッキー作りをしたことから。"
+      },
+      {
+        "q": "What did Sara do at the school cooking contest?",
+        "choices": ["She used a new recipe from a book.", "She used her grandmother's recipe with fresh basil.", "She made Italian pasta.", "She helped her friend cook."],
+        "answer": 1,
+        "explanation": "「her grandmother's old recipe, but she added fresh basil」が根拠。",
+        "translation": "祖母のレシピに新鮮なバジルを添えた。"
+      },
+      {
+        "q": "What does Sara write in her \"Dream Book\"?",
+        "choices": ["Her daily feelings.", "Homework answers.", "Pictures of her future restaurant and new recipes.", "Letters to her grandmother."],
+        "answer": 2,
+        "explanation": "「draws pictures of the restaurant ... writes down new recipes」が根拠。",
+        "translation": "レストランの絵と新レシピ。"
+      }
+    ]
+  }
+]
