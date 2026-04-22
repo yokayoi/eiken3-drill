@@ -24,15 +24,17 @@ export default function Splash({ onComplete }: { onComplete: () => void }) {
 
   useEffect(() => {
     const t1 = setTimeout(() => setPhase(1), 100);
-    const t2 = setTimeout(() => setPhase(2), 2800);
-    const t3 = setTimeout(() => onComplete(), 3500);
-    return () => { clearTimeout(t1); clearTimeout(t2); clearTimeout(t3); };
-  }, [onComplete]);
+    return () => { clearTimeout(t1); };
+  }, []);
+
+  function handleStart() {
+    setPhase(2);
+    setTimeout(onComplete, 400);
+  }
 
   return (
     <div
-      className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-kdark overflow-hidden cursor-pointer"
-      onClick={() => { setPhase(2); setTimeout(onComplete, 400); }}
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-kdark overflow-hidden"
       style={{
         opacity: phase === 2 ? 0 : 1,
         transition: 'opacity 0.5s ease-out',
@@ -72,11 +74,15 @@ export default function Splash({ onComplete }: { onComplete: () => void }) {
           <p className="text-sm md:text-base text-kpurple font-bold tracking-widest font-pixel">EIKEN GRADE 3 DRILL</p>
           <PixelStar size={12} color="#A855F7" />
         </div>
-        <div className="flex justify-center">
-          <div className="text-center">
-            <p className="text-xs md:text-sm text-gray-300 font-pixel">らんちゃんと一緒にがんばろう！</p>
-            <p className="text-[10px] md:text-xs text-gray-300 mt-4 font-pixel animate-pixel-blink">タップしてスタート</p>
-          </div>
+        <div className="flex flex-col items-center gap-5">
+          <p className="text-xs md:text-sm text-gray-300 font-pixel">らんちゃんと一緒にがんばろう！</p>
+          <button
+            onClick={handleStart}
+            disabled={phase !== 1}
+            className="btn-pixel px-10 py-4 rounded-none bg-kpink text-white font-black text-xl md:text-2xl font-pixel tracking-widest animate-pixel-blink"
+          >
+            ▶ START
+          </button>
         </div>
       </div>
     </div>
