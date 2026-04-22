@@ -192,10 +192,12 @@ export default function SpecialStagePage() {
     const rate = total > 0 ? finalScore / total : 0;
     return (
       <div className="min-h-screen bg-kdark">
-        <BgmPlayer src="/bgm/chopsticks.mp3" />
         <header className="sticky top-0 z-10 bg-kdark" style={{ borderBottom: '3px solid #fff' }}>
           <div className="max-w-lg md:max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
-            <a href="/" className="text-kpink font-bold text-sm font-pixel">← もどる</a>
+            <div className="flex items-center gap-2">
+              <BgmPlayer src="/bgm/chopsticks.mp3" className="w-8 h-8 flex items-center justify-center btn-pixel bg-kcard rounded-none" />
+              <a href="/" className="text-kpink font-bold text-sm font-pixel">← もどる</a>
+            </div>
             <h1 className="text-base font-black font-pixel text-red-400 inline-flex items-center gap-1"><PixelBolt size={14} /> 特別ステージ</h1>
             <div className="w-14" />
           </div>
@@ -228,10 +230,12 @@ export default function SpecialStagePage() {
 
   return (
     <div className="min-h-screen bg-kdark">
-      <BgmPlayer src="/bgm/chopsticks.mp3" />
       <header className="sticky top-0 z-10 bg-kdark" style={{ borderBottom: '3px solid #fff' }}>
         <div className="max-w-lg md:max-w-2xl mx-auto px-4 py-3 flex items-center justify-between">
-          <a href="/" className="text-kpink font-bold text-sm font-pixel">← もどる</a>
+          <div className="flex items-center gap-2">
+            <BgmPlayer src="/bgm/chopsticks.mp3" className="w-8 h-8 flex items-center justify-center btn-pixel bg-kcard rounded-none" />
+            <a href="/" className="text-kpink font-bold text-sm font-pixel">← もどる</a>
+          </div>
           <h1 className="text-base font-black font-pixel text-red-400 inline-flex items-center gap-1"><PixelBolt size={14} /> 特別ステージ</h1>
           <div className="w-14" />
         </div>
